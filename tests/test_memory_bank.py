@@ -19,6 +19,7 @@ class TensorMemoryBankTest(unittest.TestCase):
         unique_rows = {tuple(row.tolist()) for row in sampled[0]}
         self.assertEqual(len(unique_rows), 3)
 
+
     def test_short_bucket_uses_replacement(self) -> None:
         bank = TensorMemoryBank(1, 4, feature_shape=(1,))
         bank.add(torch.tensor([[5.0]]), torch.tensor([0]))
