@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from contextlib import nullcontext
 from collections.abc import Sequence
 from pathlib import Path
 from typing import Any
@@ -259,12 +260,19 @@ class YodaHybridCodec(nn.Module):
         context_channels: Sequence[int] = (1024, 512, 512, 256, 128),
         denoiser_kwargs: dict[str, Any] | None = None,
         original_denoiser: nn.Module | None = None,
+        compute_dtype: str = "fp32",
     ) -> None:
         super().__init__()
         self.vae = vae
         self.codec = codec
         self.latent_channels = int(latent_channels)
         self.scaling_factor = float(getattr(vae.config, "scaling_factor", 1.0))
+        if compute_dtype not in {"fp32", "bf16"}:
+            raise ValueError("compute_dtype must be 'fp32' or 'bf16'")
+        self.compute_dtype = compute_dtype
+        self._compute_torch_dtype = (
+            torch.bfloat16 if compute_dtype == "bf16" else torch.float32
+        )
 
         if isinstance(denoiser, nn.Module):
             self.denoiser_name = "custom"
@@ -302,6 +310,7 @@ class YodaHybridCodec(nn.Module):
         context_channels: Sequence[int] = (1024, 512, 512, 256, 128),
         denoiser_kwargs: dict[str, Any] | None = None,
         load_sana_weights: bool = True,
+        compute_dtype: str = "fp32",
     ) -> "YodaHybridCodec":
         """Build the real YODA models and load a local YODA checkpoint.
 
@@ -355,6 +364,7 @@ class YodaHybridCodec(nn.Module):
             context_channels=context_channels,
             denoiser_kwargs=denoiser_kwargs,
             original_denoiser=original,
+            compute_dtype=compute_dtype,
         )
         checkpoint = get_state_dict(checkpoint_path)
         model.load_report = model._load_matching_weights(checkpoint)
@@ -394,22 +404,33 @@ class YodaHybridCodec(nn.Module):
             loaded[name] = len(matching)
         return loaded
 
+    def _autocast(self, device: torch.device) -> Any:
+        if device.type == "cuda" and self._compute_torch_dtype == torch.bfloat16:
+            return torch.autocast(
+                device_type="cuda",
+                dtype=self._compute_torch_dtype,
+            )
+        return nullcontext()
+
     def _encode(self, image: torch.Tensor, last_recon: torch.Tensor) -> tuple[Any, torch.Tensor]:
-        ctxs = self.vae.decoder.feature_extractor(last_recon)
-        latent = self.vae.encode(image, ctxs).latent * self.scaling_factor
-        return ctxs, latent
+        with self._autocast(image.device):
+            ctxs = self.vae.decoder.feature_extractor(last_recon)
+            latent = self.vae.encode(image, ctxs).latent * self.scaling_factor
+        # The native entropy codec stays in FP32 to preserve its exact interface.
+        return ctxs, latent.float()
 
     def _decode(self, latent: torch.Tensor, ctxs: Sequence[torch.Tensor], clamp: bool) -> torch.Tensor:
-        image = self.vae.decode(
-            latent / self.scaling_factor,
-            ctxs,
-            return_dict=False,
-        )
+        with self._autocast(latent.device):
+            image = self.vae.decode(
+                latent.float() / self.scaling_factor,
+                ctxs,
+                return_dict=False,
+            )
         if isinstance(image, (tuple, list)):
             image = image[0]
         if clamp:
             image = image.clamp(-1, 1)
-        return image
+        return image.float()
 
     def _denoise(
         self,
@@ -417,11 +438,13 @@ class YodaHybridCodec(nn.Module):
         ctxs: Sequence[torch.Tensor],
         noise: torch.Tensor | None,
     ) -> torch.Tensor:
-        return self.denoiser(
-            lq_latent_hat[:, : self.latent_channels],
-            ctxs,
-            noise=noise,
-        )
+        with self._autocast(lq_latent_hat.device):
+            denoised = self.denoiser(
+                lq_latent_hat[:, : self.latent_channels].float(),
+                ctxs,
+                noise=noise,
+            )
+        return denoised.float()
 
     def forward(
         self,

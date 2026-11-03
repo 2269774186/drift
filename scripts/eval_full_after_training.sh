@@ -58,6 +58,8 @@ log "starting one-video full-resolution smoke evaluation"
   --training-history "$HISTORY" \
   --max-videos 1 \
   --metric-batch 1 \
+  --comparison-scale 1.0 \
+  --precision bf16 \
   --reuse
 
 log "starting full 42-video benchmark"
@@ -66,6 +68,8 @@ log "starting full 42-video benchmark"
   --generator "$GENERATOR" \
   --training-history "$HISTORY" \
   --metric-batch 1 \
+  --comparison-scale 1.0 \
+  --precision bf16 \
   --reuse
 
 "$PYTHON" - "$EVAL_DIR/benchmark_summary.json" <<'PY'

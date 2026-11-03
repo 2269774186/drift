@@ -108,6 +108,11 @@ def parse_args() -> argparse.Namespace:
         default=ROOT / "checkpoints/yoda/prompt_attention_mask.pt",
     )
     parser.add_argument("--device", default="cuda:0")
+    parser.add_argument(
+        "--precision",
+        choices=("fp32", "bf16"),
+        default="fp32",
+    )
     parser.add_argument("--lora-rank", type=int, default=72)
     parser.add_argument("--intra-period", type=int, default=32)
     parser.add_argument("--width", type=int, default=1920)
@@ -124,7 +129,7 @@ def parse_args() -> argparse.Namespace:
         help="comma-separated directory names under test-root",
     )
     parser.add_argument("--max-videos", type=int, default=0)
-    parser.add_argument("--comparison-scale", type=float, default=0.5)
+    parser.add_argument("--comparison-scale", type=float, default=1.0)
     parser.add_argument("--metric-batch", type=int, default=1)
     parser.add_argument("--hidden-channels", type=int, default=64)
     parser.add_argument("--depth", type=int, default=2)
@@ -139,6 +144,8 @@ def parse_args() -> argparse.Namespace:
         raise ValueError("YUV420 dimensions must be even")
     if args.intra_period <= 0 or args.metric_batch <= 0:
         raise ValueError("intra-period and metric-batch must be positive")
+    if args.comparison_scale <= 0:
+        raise ValueError("comparison-scale must be positive")
     if not 0 < args.comparison_scale <= 1:
         raise ValueError("comparison-scale must be in (0, 1]")
     args.output_dir = args.output_dir.resolve()
@@ -637,6 +644,7 @@ def process_video(
         intra_checkpoint=args.intra_checkpoint,
         inter_checkpoint=args.inter_checkpoint,
         sd_path=args.sd_path,
+        precision=args.precision,
     )
     print(
         f"start group={entry['group']} video={entry['name']} "
@@ -892,6 +900,7 @@ def make_global_summary(
             "cuda": torch.version.cuda,
             "gpu": torch.cuda.get_device_name(0),
             "visible_devices": os.environ.get("CUDA_VISIBLE_DEVICES"),
+            "precision": args.precision,
         },
         "metrics": overall,
         "groups": group_metrics,

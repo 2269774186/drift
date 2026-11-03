@@ -112,6 +112,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--noise-scale", type=float, default=0.0)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--lora-rank", type=int, default=72)
+    parser.add_argument(
+        "--precision",
+        choices=("fp32", "bf16"),
+        default="fp32",
+    )
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--reuse", action="store_true")
     parser.add_argument("--keep-raw", action="store_true")
@@ -809,6 +814,7 @@ def load_inter_model(
         upstream_root=UPSTREAM_ROOT,
         device=device,
         lora_rank=args.lora_rank,
+        compute_dtype=args.precision,
     )
     model.codec.update()
     model.eval()
