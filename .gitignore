@@ -1,0 +1,4 @@
+# GitHub rejects tracked files larger than 100 MB.
+checkpoints/yoda/YODA_inter_model_bpp2.pth
+checkpoints/sana-sprint/transformer/diffusion_pytorch_model.safetensors
+outputs/real_akiyo_yoda_drift_v4/artifacts/training_cache.pt

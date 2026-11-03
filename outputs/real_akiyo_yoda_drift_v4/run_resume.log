@@ -1,0 +1,2586 @@
+started=2026-11-02 22:23:22 +0800 pid=2917918
+python=/home/amax/Public/YODA/.venv/bin/python
+output_dir=/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4
+/home/amax/Public/YODA/yoda_drift/yoda_hybrid.py:148: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  prompt_embeds = torch.load(prompt_embeds_path, map_location="cpu")
+/home/amax/Public/YODA/yoda_drift/yoda_hybrid.py:149: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  prompt_attention_mask = torch.load(
+/home/amax/Public/YODA/upstream/YODA-main/utils/utils.py:27: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=torch.device('cpu'))
+cannot import cuda implementation for inference, fallback to pytorch.
+encode mode=yoda_original  frame=000 I     5088 bits   910.96 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=001 P     4472 bits   732.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=002 P     2568 bits   263.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=003 P     1208 bits   240.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=004 P      904 bits   270.90 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=005 P      880 bits   247.53 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=006 P      664 bits   273.56 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=007 P      632 bits   239.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=008 P      624 bits   232.93 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=009 P      752 bits   265.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=010 P      744 bits   250.69 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=011 P      672 bits   250.88 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=012 P      800 bits   241.86 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=013 P      648 bits   240.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=014 P      776 bits   253.40 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=015 P      840 bits   252.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=016 P      808 bits   286.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=017 P      808 bits   247.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=018 P      704 bits   247.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=019 P      824 bits   263.89 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=020 P      904 bits   257.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=021 P      856 bits   253.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=022 P      784 bits   279.10 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=023 P      736 bits   265.10 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=024 P      792 bits   238.38 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=025 P      848 bits   247.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=026 P      640 bits   257.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=027 P      768 bits   255.15 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=028 P      912 bits   262.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=029 P      872 bits   245.05 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=030 P      848 bits   266.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=031 P      792 bits   285.53 ms
+encode mode=yoda_original  frame=032 I     4944 bits   252.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=033 P     4512 bits   266.03 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=034 P     2472 bits   282.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=035 P     1464 bits   238.83 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=036 P     1096 bits   249.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=037 P      920 bits   268.37 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=038 P      776 bits   249.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=039 P      672 bits   257.27 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=040 P      688 bits   266.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=041 P      720 bits   241.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=042 P      752 bits   255.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=043 P      608 bits   259.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=044 P      696 bits   229.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=045 P      784 bits   232.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=046 P      808 bits   276.74 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=047 P      752 bits   231.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=048 P      688 bits   271.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=049 P      800 bits   247.44 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=050 P      752 bits   246.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=051 P      680 bits   258.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=052 P      688 bits   244.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=053 P      784 bits   249.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=054 P      736 bits   225.98 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=055 P      696 bits   272.43 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=056 P      896 bits   258.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=057 P      728 bits   232.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=058 P      704 bits   267.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=059 P      944 bits   240.61 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=060 P      920 bits   239.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=061 P      888 bits   228.97 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=062 P      832 bits   266.61 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=063 P      744 bits   257.93 ms
+encode mode=yoda_original  frame=064 I     4976 bits   224.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=065 P     4456 bits   242.73 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=066 P     2712 bits   233.52 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=067 P     1368 bits   294.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=068 P     1016 bits   235.38 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=069 P      896 bits   280.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=070 P      728 bits   254.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=071 P      816 bits   251.46 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=072 P      760 bits   240.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=073 P      864 bits   239.19 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=074 P      728 bits   268.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=075 P      736 bits   236.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=076 P      832 bits   248.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=077 P      944 bits   236.57 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=078 P      920 bits   239.45 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=079 P      856 bits   277.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=080 P      960 bits   241.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=081 P      912 bits   256.13 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=082 P      864 bits   246.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=083 P      808 bits   322.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=084 P      824 bits   327.39 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=085 P      808 bits   307.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=086 P      760 bits   339.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=087 P      808 bits   312.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=088 P      752 bits   322.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=089 P      896 bits   322.47 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=090 P      824 bits   273.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=091 P      776 bits   317.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=092 P      816 bits   297.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=093 P      800 bits   319.62 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=094 P      728 bits   317.92 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=095 P      832 bits   318.84 ms
+encode mode=yoda_original  frame=096 I     5032 bits   304.22 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=097 P     4336 bits   327.21 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=098 P     2704 bits   333.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=099 P     1328 bits   312.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=100 P      752 bits   313.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=101 P      744 bits   341.70 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=102 P      664 bits   308.40 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=103 P      632 bits   350.60 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=104 P      768 bits   318.00 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=105 P      776 bits   317.56 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=106 P      800 bits   336.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=107 P      760 bits   309.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=108 P      768 bits   323.99 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=109 P      680 bits   274.96 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=110 P      832 bits   269.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=111 P      792 bits   265.45 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=112 P      752 bits   279.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=113 P      784 bits   269.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=114 P      832 bits   257.31 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=115 P      736 bits   255.03 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=116 P      624 bits   277.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=117 P      704 bits   261.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=118 P      728 bits   292.85 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=119 P      736 bits   291.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=120 P      712 bits   308.31 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=121 P      824 bits   265.88 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=122 P      776 bits   271.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=123 P      656 bits   257.17 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=124 P      792 bits   277.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=125 P      864 bits   251.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=126 P      888 bits   254.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=127 P      760 bits   262.07 ms
+encode mode=yoda_original  frame=128 I     4960 bits   335.80 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=129 P     4352 bits   259.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=130 P     2576 bits   368.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=131 P     1384 bits   327.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=132 P      968 bits   313.17 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=133 P      768 bits   340.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=134 P      680 bits   321.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=135 P      744 bits   352.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=136 P      880 bits   330.10 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=137 P      936 bits   318.86 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=138 P      776 bits   308.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=139 P      744 bits   317.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=140 P      664 bits   326.28 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=141 P      824 bits   303.33 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=142 P      656 bits   299.60 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=143 P      704 bits   309.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=144 P      816 bits   317.48 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=145 P      712 bits   324.52 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=146 P      712 bits   327.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=147 P      736 bits   309.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=148 P      856 bits   329.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=149 P      704 bits   268.50 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=150 P      848 bits   267.67 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=151 P      792 bits   275.30 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=152 P      840 bits   253.86 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=153 P      912 bits   298.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=154 P      992 bits   295.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=155 P      888 bits   278.61 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=156 P      968 bits   284.44 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=157 P      840 bits   266.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=158 P      856 bits   247.70 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=159 P      880 bits   257.13 ms
+encode mode=yoda_original  frame=160 I     4856 bits   283.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=161 P     4592 bits   269.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=162 P     2536 bits   268.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=163 P     1352 bits   289.91 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=164 P      824 bits   304.93 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=165 P      680 bits   294.30 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=166 P      688 bits   326.75 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=167 P      688 bits   326.69 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=168 P      640 bits   332.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=169 P      632 bits   271.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=170 P      648 bits   262.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=171 P      656 bits   272.17 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=172 P      720 bits   266.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=173 P      696 bits   263.63 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=174 P      736 bits   338.19 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=175 P      640 bits   328.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=176 P      776 bits   309.70 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=177 P      848 bits   319.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=178 P      792 bits   296.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=179 P      848 bits   320.21 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=180 P      832 bits   316.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=181 P      816 bits   334.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=182 P      672 bits   315.00 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=183 P      800 bits   313.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=184 P      744 bits   340.17 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=185 P      728 bits   312.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=186 P      864 bits   353.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=187 P      696 bits   337.40 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=188 P      952 bits   329.53 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=189 P      792 bits   329.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=190 P      880 bits   330.90 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=191 P      648 bits   264.09 ms
+encode mode=yoda_original  frame=192 I     4968 bits   215.75 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=193 P     4496 bits   261.72 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=194 P     2528 bits   304.23 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=195 P     1296 bits   300.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=196 P      872 bits   310.85 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=197 P      784 bits   293.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=198 P      648 bits   317.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=199 P      704 bits   331.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=200 P      520 bits   336.37 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=201 P      624 bits   348.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=202 P      720 bits   344.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=203 P      656 bits   270.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=204 P      752 bits   271.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=205 P      816 bits   264.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=206 P      752 bits   254.23 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=207 P      824 bits   248.29 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=208 P      872 bits   277.03 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=209 P      848 bits   259.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=210 P      880 bits   307.67 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=211 P      776 bits   277.83 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=212 P      800 bits   251.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=213 P      960 bits   247.62 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=214 P     1008 bits   359.85 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=215 P      896 bits   310.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=216 P      960 bits   320.16 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=217 P      960 bits   318.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=218 P      816 bits   309.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=219 P      792 bits   333.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=220 P      832 bits   307.45 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=221 P      960 bits   324.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=222 P      824 bits   304.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=223 P      768 bits   306.76 ms
+encode mode=yoda_original  frame=224 I     4976 bits   226.26 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=225 P     4312 bits   321.03 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=226 P     2744 bits   308.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=227 P     1416 bits   315.95 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=228 P      912 bits   372.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=229 P      752 bits   280.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=230 P      560 bits   259.33 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=231 P      664 bits   274.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=232 P      616 bits   240.86 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=233 P      736 bits   294.93 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=234 P      736 bits   265.74 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=235 P      784 bits   283.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=236 P      728 bits   316.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=237 P      848 bits   318.16 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=238 P      792 bits   263.10 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=239 P      864 bits   328.19 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=240 P      776 bits   314.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=241 P      792 bits   323.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=242 P      784 bits   371.46 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=243 P      696 bits   338.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=244 P      816 bits   318.01 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=245 P      728 bits   342.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=246 P      752 bits   302.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=247 P      760 bits   350.29 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=248 P      848 bits   322.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=249 P      904 bits   286.26 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=250 P      936 bits   337.53 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=251 P      776 bits   306.70 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=252 P      984 bits   334.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=253 P      800 bits   362.86 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=254 P      792 bits   356.91 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=255 P      816 bits   334.84 ms
+encode mode=yoda_original  frame=256 I     4864 bits   214.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=257 P     4472 bits   340.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=258 P     2648 bits   324.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=259 P     1248 bits   374.22 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=260 P      864 bits   302.70 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=261 P      896 bits   339.13 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=262 P      760 bits   346.76 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=263 P      736 bits   312.10 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=264 P      632 bits   334.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=265 P      656 bits   349.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=266 P      592 bits   326.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=267 P      712 bits   312.00 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=268 P      576 bits   321.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=269 P      672 bits   314.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=270 P      720 bits   341.57 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=271 P      744 bits   276.45 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=272 P      688 bits   283.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=273 P      888 bits   251.96 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=274 P      792 bits   254.46 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=275 P      824 bits   261.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=276 P      880 bits   257.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=277 P      920 bits   283.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=278 P      824 bits   265.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=279 P      904 bits   255.44 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=280 P      896 bits   340.60 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=281 P      816 bits   316.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=282 P      832 bits   354.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=283 P      832 bits   322.44 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=284 P      880 bits   326.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=285 P      928 bits   317.05 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=286 P      920 bits   301.98 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=287 P      768 bits   296.58 ms
+encode mode=yoda_original  frame=288 I     4960 bits   223.17 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=289 P     4264 bits   321.06 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=290 P     2568 bits   338.91 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=291 P     1440 bits   310.76 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=292 P      880 bits   353.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=293 P      800 bits   309.88 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=294 P      680 bits   322.88 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=295 P      632 bits   337.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=296 P      688 bits   315.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=297 P      680 bits   262.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=298 P      760 bits   298.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+encode mode=yoda_original  frame=299 P      760 bits   302.26 ms
+encode mode=drift_identity frame=000 I     5088 bits   910.96 ms
+encode mode=drift_identity frame=001 P     4472 bits   229.25 ms
+encode mode=drift_identity frame=002 P     3408 bits   114.34 ms
+encode mode=drift_identity frame=003 P     1840 bits   131.09 ms
+encode mode=drift_identity frame=004 P     1448 bits   118.30 ms
+encode mode=drift_identity frame=005 P      960 bits   144.04 ms
+encode mode=drift_identity frame=006 P      928 bits   134.35 ms
+encode mode=drift_identity frame=007 P      752 bits   143.89 ms
+encode mode=drift_identity frame=008 P      872 bits   116.27 ms
+encode mode=drift_identity frame=009 P      920 bits   143.25 ms
+encode mode=drift_identity frame=010 P      840 bits   127.60 ms
+encode mode=drift_identity frame=011 P      824 bits   135.91 ms
+encode mode=drift_identity frame=012 P      952 bits   131.24 ms
+encode mode=drift_identity frame=013 P      840 bits   121.12 ms
+encode mode=drift_identity frame=014 P      912 bits   124.38 ms
+encode mode=drift_identity frame=015 P     1032 bits   114.17 ms
+encode mode=drift_identity frame=016 P      896 bits   129.35 ms
+encode mode=drift_identity frame=017 P      912 bits   110.29 ms
+encode mode=drift_identity frame=018 P     1056 bits   132.09 ms
+encode mode=drift_identity frame=019 P      992 bits   114.55 ms
+encode mode=drift_identity frame=020 P     1112 bits   136.08 ms
+encode mode=drift_identity frame=021 P     1008 bits   139.40 ms
+encode mode=drift_identity frame=022 P     1104 bits   121.97 ms
+encode mode=drift_identity frame=023 P      944 bits   145.63 ms
+encode mode=drift_identity frame=024 P     1016 bits   128.12 ms
+encode mode=drift_identity frame=025 P      984 bits   132.16 ms
+encode mode=drift_identity frame=026 P     1144 bits   114.88 ms
+encode mode=drift_identity frame=027 P      920 bits   142.71 ms
+encode mode=drift_identity frame=028 P      992 bits   129.74 ms
+encode mode=drift_identity frame=029 P     1040 bits   122.43 ms
+encode mode=drift_identity frame=030 P     1080 bits   133.63 ms
+encode mode=drift_identity frame=031 P      840 bits   130.04 ms
+encode mode=drift_identity frame=032 I     4944 bits   252.08 ms
+encode mode=drift_identity frame=033 P     4512 bits   129.55 ms
+encode mode=drift_identity frame=034 P     3264 bits   108.64 ms
+encode mode=drift_identity frame=035 P     1840 bits   129.06 ms
+encode mode=drift_identity frame=036 P     1432 bits   111.01 ms
+encode mode=drift_identity frame=037 P     1008 bits   142.39 ms
+encode mode=drift_identity frame=038 P     1016 bits   134.64 ms
+encode mode=drift_identity frame=039 P     1008 bits   116.36 ms
+encode mode=drift_identity frame=040 P     1064 bits   111.69 ms
+encode mode=drift_identity frame=041 P      856 bits   121.80 ms
+encode mode=drift_identity frame=042 P      960 bits   138.11 ms
+encode mode=drift_identity frame=043 P      992 bits   106.58 ms
+encode mode=drift_identity frame=044 P      840 bits   120.55 ms
+encode mode=drift_identity frame=045 P      840 bits   144.66 ms
+encode mode=drift_identity frame=046 P      960 bits   116.58 ms
+encode mode=drift_identity frame=047 P      888 bits   142.15 ms
+encode mode=drift_identity frame=048 P      912 bits   140.12 ms
+encode mode=drift_identity frame=049 P     1008 bits   115.37 ms
+encode mode=drift_identity frame=050 P      944 bits   144.03 ms
+encode mode=drift_identity frame=051 P      896 bits   126.58 ms
+encode mode=drift_identity frame=052 P     1000 bits   145.62 ms
+encode mode=drift_identity frame=053 P      984 bits   113.15 ms
+encode mode=drift_identity frame=054 P     1040 bits   135.87 ms
+encode mode=drift_identity frame=055 P      920 bits   150.10 ms
+encode mode=drift_identity frame=056 P      880 bits   111.94 ms
+encode mode=drift_identity frame=057 P      976 bits   122.71 ms
+encode mode=drift_identity frame=058 P      952 bits   105.96 ms
+encode mode=drift_identity frame=059 P     1088 bits   125.96 ms
+encode mode=drift_identity frame=060 P      928 bits   111.11 ms
+encode mode=drift_identity frame=061 P      976 bits   146.85 ms
+encode mode=drift_identity frame=062 P     1088 bits   131.49 ms
+encode mode=drift_identity frame=063 P     1120 bits   127.06 ms
+encode mode=drift_identity frame=064 I     4976 bits   224.58 ms
+encode mode=drift_identity frame=065 P     4456 bits   120.55 ms
+encode mode=drift_identity frame=066 P     3608 bits   123.98 ms
+encode mode=drift_identity frame=067 P     1760 bits   122.81 ms
+encode mode=drift_identity frame=068 P     1280 bits   137.66 ms
+encode mode=drift_identity frame=069 P      960 bits   121.76 ms
+encode mode=drift_identity frame=070 P      776 bits   122.69 ms
+encode mode=drift_identity frame=071 P      960 bits   133.83 ms
+encode mode=drift_identity frame=072 P      928 bits   130.72 ms
+encode mode=drift_identity frame=073 P      952 bits   133.47 ms
+encode mode=drift_identity frame=074 P      880 bits   152.21 ms
+encode mode=drift_identity frame=075 P      928 bits   114.75 ms
+encode mode=drift_identity frame=076 P     1024 bits   130.70 ms
+encode mode=drift_identity frame=077 P     1128 bits   127.59 ms
+encode mode=drift_identity frame=078 P     1144 bits   126.71 ms
+encode mode=drift_identity frame=079 P     1280 bits   131.41 ms
+encode mode=drift_identity frame=080 P     1112 bits   114.24 ms
+encode mode=drift_identity frame=081 P      976 bits   131.27 ms
+encode mode=drift_identity frame=082 P     1056 bits   114.20 ms
+encode mode=drift_identity frame=083 P     1008 bits   122.38 ms
+encode mode=drift_identity frame=084 P     1000 bits   135.57 ms
+encode mode=drift_identity frame=085 P     1064 bits   138.04 ms
+encode mode=drift_identity frame=086 P     1120 bits   123.94 ms
+encode mode=drift_identity frame=087 P     1056 bits   132.13 ms
+encode mode=drift_identity frame=088 P      944 bits   132.49 ms
+encode mode=drift_identity frame=089 P      824 bits   140.79 ms
+encode mode=drift_identity frame=090 P     1032 bits   122.62 ms
+encode mode=drift_identity frame=091 P      888 bits   148.31 ms
+encode mode=drift_identity frame=092 P     1056 bits   138.30 ms
+encode mode=drift_identity frame=093 P      904 bits   116.74 ms
+encode mode=drift_identity frame=094 P      944 bits   135.23 ms
+encode mode=drift_identity frame=095 P     1000 bits   125.84 ms
+encode mode=drift_identity frame=096 I     5032 bits   304.22 ms
+encode mode=drift_identity frame=097 P     4336 bits   109.02 ms
+encode mode=drift_identity frame=098 P     3648 bits   133.89 ms
+encode mode=drift_identity frame=099 P     1792 bits   117.81 ms
+encode mode=drift_identity frame=100 P     1304 bits   121.83 ms
+encode mode=drift_identity frame=101 P      896 bits   128.80 ms
+encode mode=drift_identity frame=102 P      832 bits   103.97 ms
+encode mode=drift_identity frame=103 P      856 bits   136.95 ms
+encode mode=drift_identity frame=104 P      840 bits   114.62 ms
+encode mode=drift_identity frame=105 P      944 bits   103.91 ms
+encode mode=drift_identity frame=106 P      952 bits   109.35 ms
+encode mode=drift_identity frame=107 P      864 bits   126.00 ms
+encode mode=drift_identity frame=108 P      880 bits   112.20 ms
+encode mode=drift_identity frame=109 P      976 bits   130.48 ms
+encode mode=drift_identity frame=110 P      904 bits   103.86 ms
+encode mode=drift_identity frame=111 P      984 bits   142.08 ms
+encode mode=drift_identity frame=112 P      936 bits   105.71 ms
+encode mode=drift_identity frame=113 P     1152 bits   140.43 ms
+encode mode=drift_identity frame=114 P      944 bits   128.37 ms
+encode mode=drift_identity frame=115 P      992 bits   113.66 ms
+encode mode=drift_identity frame=116 P      960 bits   135.73 ms
+encode mode=drift_identity frame=117 P      920 bits   144.55 ms
+encode mode=drift_identity frame=118 P     1000 bits   132.94 ms
+encode mode=drift_identity frame=119 P     1032 bits   118.88 ms
+encode mode=drift_identity frame=120 P     1056 bits   149.29 ms
+encode mode=drift_identity frame=121 P      904 bits   140.29 ms
+encode mode=drift_identity frame=122 P     1088 bits   117.21 ms
+encode mode=drift_identity frame=123 P      936 bits   130.45 ms
+encode mode=drift_identity frame=124 P      928 bits   114.58 ms
+encode mode=drift_identity frame=125 P     1056 bits   135.30 ms
+encode mode=drift_identity frame=126 P      968 bits   137.27 ms
+encode mode=drift_identity frame=127 P     1000 bits   119.38 ms
+encode mode=drift_identity frame=128 I     4960 bits   335.80 ms
+encode mode=drift_identity frame=129 P     4352 bits   140.20 ms
+encode mode=drift_identity frame=130 P     3496 bits   136.45 ms
+encode mode=drift_identity frame=131 P     1840 bits   126.40 ms
+encode mode=drift_identity frame=132 P     1216 bits   115.05 ms
+encode mode=drift_identity frame=133 P     1104 bits   138.19 ms
+encode mode=drift_identity frame=134 P      832 bits   140.01 ms
+encode mode=drift_identity frame=135 P      880 bits   115.75 ms
+encode mode=drift_identity frame=136 P      832 bits   143.13 ms
+encode mode=drift_identity frame=137 P      936 bits   138.60 ms
+encode mode=drift_identity frame=138 P      992 bits   121.30 ms
+encode mode=drift_identity frame=139 P     1064 bits   134.94 ms
+encode mode=drift_identity frame=140 P      872 bits   146.63 ms
+encode mode=drift_identity frame=141 P     1040 bits   115.78 ms
+encode mode=drift_identity frame=142 P      944 bits   129.91 ms
+encode mode=drift_identity frame=143 P     1128 bits   115.10 ms
+encode mode=drift_identity frame=144 P      912 bits   138.44 ms
+encode mode=drift_identity frame=145 P      880 bits   141.22 ms
+encode mode=drift_identity frame=146 P     1016 bits   119.65 ms
+encode mode=drift_identity frame=147 P      968 bits   127.67 ms
+encode mode=drift_identity frame=148 P      864 bits   112.11 ms
+encode mode=drift_identity frame=149 P     1088 bits   142.93 ms
+encode mode=drift_identity frame=150 P      976 bits   135.74 ms
+encode mode=drift_identity frame=151 P      944 bits   102.87 ms
+encode mode=drift_identity frame=152 P      960 bits   135.88 ms
+encode mode=drift_identity frame=153 P     1128 bits   123.68 ms
+encode mode=drift_identity frame=154 P     1104 bits   141.83 ms
+encode mode=drift_identity frame=155 P     1040 bits   144.51 ms
+encode mode=drift_identity frame=156 P     1128 bits   121.54 ms
+encode mode=drift_identity frame=157 P     1120 bits   149.34 ms
+encode mode=drift_identity frame=158 P     1112 bits   134.46 ms
+encode mode=drift_identity frame=159 P      968 bits   115.69 ms
+encode mode=drift_identity frame=160 I     4856 bits   283.49 ms
+encode mode=drift_identity frame=161 P     4592 bits   142.66 ms
+encode mode=drift_identity frame=162 P     3400 bits   143.78 ms
+encode mode=drift_identity frame=163 P     1816 bits   121.66 ms
+encode mode=drift_identity frame=164 P     1296 bits   127.41 ms
+encode mode=drift_identity frame=165 P      944 bits   115.21 ms
+encode mode=drift_identity frame=166 P      928 bits   133.41 ms
+encode mode=drift_identity frame=167 P      768 bits   128.66 ms
+encode mode=drift_identity frame=168 P      872 bits   114.68 ms
+encode mode=drift_identity frame=169 P      792 bits   125.02 ms
+encode mode=drift_identity frame=170 P      840 bits   134.84 ms
+encode mode=drift_identity frame=171 P      968 bits   118.20 ms
+encode mode=drift_identity frame=172 P      880 bits   113.50 ms
+encode mode=drift_identity frame=173 P     1024 bits   133.37 ms
+encode mode=drift_identity frame=174 P      944 bits   118.09 ms
+encode mode=drift_identity frame=175 P      808 bits   128.05 ms
+encode mode=drift_identity frame=176 P      952 bits   142.06 ms
+encode mode=drift_identity frame=177 P      896 bits   135.07 ms
+encode mode=drift_identity frame=178 P     1008 bits   115.61 ms
+encode mode=drift_identity frame=179 P      928 bits   136.38 ms
+encode mode=drift_identity frame=180 P     1104 bits   139.74 ms
+encode mode=drift_identity frame=181 P     1056 bits   140.36 ms
+encode mode=drift_identity frame=182 P     1000 bits   119.94 ms
+encode mode=drift_identity frame=183 P     1008 bits   124.04 ms
+encode mode=drift_identity frame=184 P     1016 bits   163.29 ms
+encode mode=drift_identity frame=185 P      832 bits   116.37 ms
+encode mode=drift_identity frame=186 P      808 bits   117.54 ms
+encode mode=drift_identity frame=187 P      984 bits   129.71 ms
+encode mode=drift_identity frame=188 P      960 bits   113.01 ms
+encode mode=drift_identity frame=189 P      976 bits   131.09 ms
+encode mode=drift_identity frame=190 P      968 bits   151.93 ms
+encode mode=drift_identity frame=191 P     1136 bits   117.47 ms
+encode mode=drift_identity frame=192 I     4968 bits   215.75 ms
+encode mode=drift_identity frame=193 P     4496 bits   111.31 ms
+encode mode=drift_identity frame=194 P     3424 bits   131.19 ms
+encode mode=drift_identity frame=195 P     1752 bits   120.52 ms
+encode mode=drift_identity frame=196 P     1224 bits   139.78 ms
+encode mode=drift_identity frame=197 P      864 bits   131.96 ms
+encode mode=drift_identity frame=198 P      784 bits   114.62 ms
+encode mode=drift_identity frame=199 P      792 bits   134.93 ms
+encode mode=drift_identity frame=200 P      712 bits   109.67 ms
+encode mode=drift_identity frame=201 P      872 bits   138.54 ms
+encode mode=drift_identity frame=202 P      952 bits   123.23 ms
+encode mode=drift_identity frame=203 P      920 bits   129.42 ms
+encode mode=drift_identity frame=204 P      808 bits   139.11 ms
+encode mode=drift_identity frame=205 P     1000 bits   125.62 ms
+encode mode=drift_identity frame=206 P      896 bits   127.36 ms
+encode mode=drift_identity frame=207 P      984 bits   146.14 ms
+encode mode=drift_identity frame=208 P      840 bits   129.82 ms
+encode mode=drift_identity frame=209 P      968 bits   109.16 ms
+encode mode=drift_identity frame=210 P     1032 bits   129.52 ms
+encode mode=drift_identity frame=211 P      952 bits   134.51 ms
+encode mode=drift_identity frame=212 P     1152 bits   115.45 ms
+encode mode=drift_identity frame=213 P      960 bits   128.20 ms
+encode mode=drift_identity frame=214 P      928 bits   111.65 ms
+encode mode=drift_identity frame=215 P     1184 bits   116.20 ms
+encode mode=drift_identity frame=216 P      936 bits   130.30 ms
+encode mode=drift_identity frame=217 P     1136 bits   141.31 ms
+encode mode=drift_identity frame=218 P     1072 bits   104.58 ms
+encode mode=drift_identity frame=219 P     1072 bits   125.67 ms
+encode mode=drift_identity frame=220 P     1120 bits   127.38 ms
+encode mode=drift_identity frame=221 P     1112 bits   103.85 ms
+encode mode=drift_identity frame=222 P     1016 bits   125.79 ms
+encode mode=drift_identity frame=223 P     1000 bits   126.58 ms
+encode mode=drift_identity frame=224 I     4976 bits   226.26 ms
+encode mode=drift_identity frame=225 P     4312 bits   123.67 ms
+encode mode=drift_identity frame=226 P     3576 bits   108.94 ms
+encode mode=drift_identity frame=227 P     1744 bits   103.12 ms
+encode mode=drift_identity frame=228 P     1216 bits   125.23 ms
+encode mode=drift_identity frame=229 P      944 bits   110.37 ms
+encode mode=drift_identity frame=230 P      792 bits   130.31 ms
+encode mode=drift_identity frame=231 P      800 bits   131.29 ms
+encode mode=drift_identity frame=232 P      888 bits   120.79 ms
+encode mode=drift_identity frame=233 P      880 bits   134.56 ms
+encode mode=drift_identity frame=234 P      920 bits   105.69 ms
+encode mode=drift_identity frame=235 P      968 bits   120.88 ms
+encode mode=drift_identity frame=236 P      856 bits   126.67 ms
+encode mode=drift_identity frame=237 P      888 bits   104.90 ms
+encode mode=drift_identity frame=238 P     1144 bits   123.95 ms
+encode mode=drift_identity frame=239 P      944 bits   103.63 ms
+encode mode=drift_identity frame=240 P      904 bits   126.81 ms
+encode mode=drift_identity frame=241 P     1040 bits   115.46 ms
+encode mode=drift_identity frame=242 P      896 bits   128.26 ms
+encode mode=drift_identity frame=243 P     1064 bits   109.44 ms
+encode mode=drift_identity frame=244 P      960 bits   125.98 ms
+encode mode=drift_identity frame=245 P     1016 bits   121.92 ms
+encode mode=drift_identity frame=246 P     1016 bits   112.98 ms
+encode mode=drift_identity frame=247 P     1112 bits   125.21 ms
+encode mode=drift_identity frame=248 P     1000 bits   133.89 ms
+encode mode=drift_identity frame=249 P     1016 bits   117.86 ms
+encode mode=drift_identity frame=250 P     1120 bits   124.89 ms
+encode mode=drift_identity frame=251 P      872 bits   119.09 ms
+encode mode=drift_identity frame=252 P     1160 bits   141.27 ms
+encode mode=drift_identity frame=253 P     1104 bits   134.44 ms
+encode mode=drift_identity frame=254 P     1040 bits   127.49 ms
+encode mode=drift_identity frame=255 P      872 bits   147.75 ms
+encode mode=drift_identity frame=256 I     4864 bits   214.59 ms
+encode mode=drift_identity frame=257 P     4472 bits   131.89 ms
+encode mode=drift_identity frame=258 P     3600 bits   135.70 ms
+encode mode=drift_identity frame=259 P     1720 bits   128.53 ms
+encode mode=drift_identity frame=260 P     1264 bits   115.85 ms
+encode mode=drift_identity frame=261 P     1024 bits   136.27 ms
+encode mode=drift_identity frame=262 P      928 bits   136.49 ms
+encode mode=drift_identity frame=263 P     1000 bits   112.84 ms
+encode mode=drift_identity frame=264 P      904 bits   136.66 ms
+encode mode=drift_identity frame=265 P      824 bits   129.32 ms
+encode mode=drift_identity frame=266 P      896 bits   108.66 ms
+encode mode=drift_identity frame=267 P      952 bits   126.61 ms
+encode mode=drift_identity frame=268 P      880 bits   117.34 ms
+encode mode=drift_identity frame=269 P      896 bits   128.43 ms
+encode mode=drift_identity frame=270 P      912 bits   108.33 ms
+encode mode=drift_identity frame=271 P      888 bits   127.16 ms
+encode mode=drift_identity frame=272 P      960 bits   110.71 ms
+encode mode=drift_identity frame=273 P      872 bits   127.50 ms
+encode mode=drift_identity frame=274 P      936 bits   128.40 ms
+encode mode=drift_identity frame=275 P      944 bits   110.22 ms
+encode mode=drift_identity frame=276 P      928 bits   142.93 ms
+encode mode=drift_identity frame=277 P     1024 bits   127.51 ms
+encode mode=drift_identity frame=278 P     1136 bits   137.15 ms
+encode mode=drift_identity frame=279 P     1000 bits   115.33 ms
+encode mode=drift_identity frame=280 P     1112 bits   137.96 ms
+encode mode=drift_identity frame=281 P     1064 bits   132.18 ms
+encode mode=drift_identity frame=282 P     1112 bits   118.45 ms
+encode mode=drift_identity frame=283 P     1040 bits   142.12 ms
+encode mode=drift_identity frame=284 P      984 bits   121.53 ms
+encode mode=drift_identity frame=285 P     1016 bits   124.09 ms
+encode mode=drift_identity frame=286 P     1224 bits   114.08 ms
+encode mode=drift_identity frame=287 P      872 bits   133.89 ms
+encode mode=drift_identity frame=288 I     4960 bits   223.17 ms
+encode mode=drift_identity frame=289 P     4264 bits   116.35 ms
+encode mode=drift_identity frame=290 P     3592 bits   129.23 ms
+encode mode=drift_identity frame=291 P     1840 bits   128.40 ms
+encode mode=drift_identity frame=292 P     1304 bits   128.11 ms
+encode mode=drift_identity frame=293 P      872 bits   117.44 ms
+encode mode=drift_identity frame=294 P      952 bits   155.65 ms
+encode mode=drift_identity frame=295 P      848 bits   121.87 ms
+encode mode=drift_identity frame=296 P      880 bits   133.56 ms
+encode mode=drift_identity frame=297 P      896 bits   136.49 ms
+encode mode=drift_identity frame=298 P      960 bits   126.80 ms
+encode mode=drift_identity frame=299 P      960 bits   117.11 ms
+train step=0001/800 loss=20.1478 drift=8.83647 recon=0.113113 grad=74.19
+train step=0025/800 loss=9.39752 drift=8.78646 recon=0.00611057 grad=22.86
+train step=0050/800 loss=8.97322 drift=8.75703 recon=0.00216184 grad=5.647
+train step=0075/800 loss=7.26987 drift=7.10719 recon=0.00162678 grad=16.16
+train step=0100/800 loss=7.19904 drift=7.05706 recon=0.00141983 grad=11.56
+train step=0125/800 loss=7.41104 drift=7.29159 recon=0.00119446 grad=11.38
+train step=0150/800 loss=7.19533 drift=7.10423 recon=0.000910948 grad=8.218
+train step=0175/800 loss=7.29594 drift=7.19057 recon=0.00105372 grad=9.996
+train step=0200/800 loss=7.37418 drift=7.26854 recon=0.00105647 grad=10.41
+train step=0225/800 loss=7.14471 drift=7.02402 recon=0.0012069 grad=8.849
+train step=0250/800 loss=7.25719 drift=7.15536 recon=0.00101823 grad=5.641
+train step=0275/800 loss=7.32508 drift=7.1966 recon=0.00128474 grad=6.788
+train step=0300/800 loss=7.31695 drift=7.24127 recon=0.000756751 grad=7.272
+train step=0325/800 loss=7.20084 drift=7.15716 recon=0.000436744 grad=6.041
+train step=0350/800 loss=7.37774 drift=7.3366 recon=0.000411348 grad=4.596
+train step=0375/800 loss=7.35192 drift=7.30949 recon=0.00042437 grad=5.814
+train step=0400/800 loss=7.5159 drift=7.48114 recon=0.00034761 grad=6.312
+train step=0425/800 loss=7.41898 drift=7.38923 recon=0.000297474 grad=5.808
+train step=0450/800 loss=7.28129 drift=7.25362 recon=0.000276667 grad=4.245
+train step=0475/800 loss=7.29487 drift=7.26555 recon=0.000293171 grad=6.509
+train step=0500/800 loss=7.07925 drift=7.05114 recon=0.000281125 grad=3.666
+train step=0525/800 loss=7.47652 drift=7.4412 recon=0.000353192 grad=6.524
+train step=0550/800 loss=7.4201 drift=7.39612 recon=0.000239846 grad=5.333
+train step=0575/800 loss=7.17591 drift=7.14397 recon=0.000319453 grad=5.614
+train step=0600/800 loss=7.4875 drift=7.46159 recon=0.00025918 grad=5.662
+train step=0625/800 loss=7.44014 drift=7.41835 recon=0.000217872 grad=5.236
+train step=0650/800 loss=7.42797 drift=7.39482 recon=0.000331552 grad=6.967
+train step=0675/800 loss=7.37365 drift=7.35145 recon=0.000221939 grad=5.253
+train step=0700/800 loss=7.13707 drift=7.1036 recon=0.000334703 grad=4.346
+train step=0725/800 loss=7.09965 drift=7.07283 recon=0.000268134 grad=3.892
+train step=0750/800 loss=7.28615 drift=7.25674 recon=0.000294029 grad=3.674
+train step=0775/800 loss=6.97816 drift=6.95592 recon=0.000222386 grad=3.879
+train step=0800/800 loss=7.07417 drift=7.04871 recon=0.000254616 grad=3.851
+encode mode=drift_trained  frame=000 I     5088 bits   910.96 ms
+encode mode=drift_trained  frame=001 P     4472 bits   141.47 ms
+encode mode=drift_trained  frame=002 P     2576 bits   122.45 ms
+encode mode=drift_trained  frame=003 P     1248 bits   141.26 ms
+encode mode=drift_trained  frame=004 P      888 bits   115.73 ms
+encode mode=drift_trained  frame=005 P      824 bits   140.49 ms
+encode mode=drift_trained  frame=006 P      584 bits   143.12 ms
+encode mode=drift_trained  frame=007 P      712 bits   138.52 ms
+encode mode=drift_trained  frame=008 P      696 bits   126.10 ms
+encode mode=drift_trained  frame=009 P      640 bits   112.90 ms
+encode mode=drift_trained  frame=010 P      656 bits   112.95 ms
+encode mode=drift_trained  frame=011 P      728 bits   138.70 ms
+encode mode=drift_trained  frame=012 P      752 bits   134.52 ms
+encode mode=drift_trained  frame=013 P      656 bits   133.21 ms
+encode mode=drift_trained  frame=014 P      728 bits   114.95 ms
+encode mode=drift_trained  frame=015 P      808 bits   143.95 ms
+encode mode=drift_trained  frame=016 P      888 bits   135.34 ms
+encode mode=drift_trained  frame=017 P      768 bits   123.20 ms
+encode mode=drift_trained  frame=018 P      944 bits   116.36 ms
+encode mode=drift_trained  frame=019 P      832 bits   128.53 ms
+encode mode=drift_trained  frame=020 P      944 bits   132.61 ms
+encode mode=drift_trained  frame=021 P      704 bits   122.41 ms
+encode mode=drift_trained  frame=022 P      832 bits   131.15 ms
+encode mode=drift_trained  frame=023 P      776 bits   110.48 ms
+encode mode=drift_trained  frame=024 P      840 bits   127.68 ms
+encode mode=drift_trained  frame=025 P      896 bits   115.65 ms
+encode mode=drift_trained  frame=026 P      832 bits   130.96 ms
+encode mode=drift_trained  frame=027 P      736 bits   118.87 ms
+encode mode=drift_trained  frame=028 P      784 bits   172.71 ms
+encode mode=drift_trained  frame=029 P      872 bits   116.32 ms
+encode mode=drift_trained  frame=030 P      792 bits   128.68 ms
+encode mode=drift_trained  frame=031 P      816 bits   107.59 ms
+encode mode=drift_trained  frame=032 I     4944 bits   252.08 ms
+encode mode=drift_trained  frame=033 P     4512 bits   144.59 ms
+encode mode=drift_trained  frame=034 P     2480 bits   122.42 ms
+encode mode=drift_trained  frame=035 P     1368 bits   113.12 ms
+encode mode=drift_trained  frame=036 P     1016 bits   130.61 ms
+encode mode=drift_trained  frame=037 P     1024 bits   120.89 ms
+encode mode=drift_trained  frame=038 P      736 bits   138.53 ms
+encode mode=drift_trained  frame=039 P      720 bits   140.67 ms
+encode mode=drift_trained  frame=040 P      672 bits   128.72 ms
+encode mode=drift_trained  frame=041 P      728 bits   111.53 ms
+encode mode=drift_trained  frame=042 P      680 bits   127.91 ms
+encode mode=drift_trained  frame=043 P      680 bits   130.06 ms
+encode mode=drift_trained  frame=044 P      800 bits   117.40 ms
+encode mode=drift_trained  frame=045 P      752 bits   137.78 ms
+encode mode=drift_trained  frame=046 P      728 bits   132.55 ms
+encode mode=drift_trained  frame=047 P      744 bits   114.78 ms
+encode mode=drift_trained  frame=048 P      760 bits   115.34 ms
+encode mode=drift_trained  frame=049 P      776 bits   128.56 ms
+encode mode=drift_trained  frame=050 P      848 bits   108.37 ms
+encode mode=drift_trained  frame=051 P      656 bits   129.24 ms
+encode mode=drift_trained  frame=052 P      640 bits   119.89 ms
+encode mode=drift_trained  frame=053 P      728 bits   120.59 ms
+encode mode=drift_trained  frame=054 P      768 bits   108.21 ms
+encode mode=drift_trained  frame=055 P      840 bits   127.18 ms
+encode mode=drift_trained  frame=056 P      840 bits   131.86 ms
+encode mode=drift_trained  frame=057 P      736 bits   120.94 ms
+encode mode=drift_trained  frame=058 P      752 bits   141.88 ms
+encode mode=drift_trained  frame=059 P      952 bits   119.72 ms
+encode mode=drift_trained  frame=060 P      864 bits   141.70 ms
+encode mode=drift_trained  frame=061 P      824 bits    99.73 ms
+encode mode=drift_trained  frame=062 P      856 bits   128.92 ms
+encode mode=drift_trained  frame=063 P      864 bits   109.37 ms
+encode mode=drift_trained  frame=064 I     4976 bits   224.58 ms
+encode mode=drift_trained  frame=065 P     4456 bits   125.32 ms
+encode mode=drift_trained  frame=066 P     2736 bits   112.68 ms
+encode mode=drift_trained  frame=067 P     1264 bits   122.77 ms
+encode mode=drift_trained  frame=068 P      984 bits   134.78 ms
+encode mode=drift_trained  frame=069 P      848 bits   143.17 ms
+encode mode=drift_trained  frame=070 P      832 bits   118.28 ms
+encode mode=drift_trained  frame=071 P      744 bits   140.65 ms
+encode mode=drift_trained  frame=072 P      784 bits   138.52 ms
+encode mode=drift_trained  frame=073 P      872 bits   140.42 ms
+encode mode=drift_trained  frame=074 P      680 bits   135.62 ms
+encode mode=drift_trained  frame=075 P      800 bits   117.73 ms
+encode mode=drift_trained  frame=076 P      752 bits   141.40 ms
+encode mode=drift_trained  frame=077 P      952 bits   134.58 ms
+encode mode=drift_trained  frame=078 P      848 bits   140.29 ms
+encode mode=drift_trained  frame=079 P      952 bits   120.41 ms
+encode mode=drift_trained  frame=080 P      856 bits   123.42 ms
+encode mode=drift_trained  frame=081 P      920 bits   129.74 ms
+encode mode=drift_trained  frame=082 P      888 bits   113.19 ms
+encode mode=drift_trained  frame=083 P      904 bits   138.58 ms
+encode mode=drift_trained  frame=084 P      848 bits   142.65 ms
+encode mode=drift_trained  frame=085 P      848 bits   116.13 ms
+encode mode=drift_trained  frame=086 P      784 bits   106.59 ms
+encode mode=drift_trained  frame=087 P      760 bits   144.06 ms
+encode mode=drift_trained  frame=088 P      824 bits   131.12 ms
+encode mode=drift_trained  frame=089 P      856 bits   107.07 ms
+encode mode=drift_trained  frame=090 P      728 bits   119.06 ms
+encode mode=drift_trained  frame=091 P      768 bits   135.35 ms
+encode mode=drift_trained  frame=092 P      696 bits   120.37 ms
+encode mode=drift_trained  frame=093 P      856 bits   138.61 ms
+encode mode=drift_trained  frame=094 P      896 bits   130.70 ms
+encode mode=drift_trained  frame=095 P      872 bits   114.17 ms
+encode mode=drift_trained  frame=096 I     5032 bits   304.22 ms
+encode mode=drift_trained  frame=097 P     4336 bits   138.83 ms
+encode mode=drift_trained  frame=098 P     2744 bits   135.83 ms
+encode mode=drift_trained  frame=099 P     1328 bits   123.56 ms
+encode mode=drift_trained  frame=100 P      848 bits   117.22 ms
+encode mode=drift_trained  frame=101 P      680 bits   150.70 ms
+encode mode=drift_trained  frame=102 P      664 bits   132.80 ms
+encode mode=drift_trained  frame=103 P      800 bits   123.66 ms
+encode mode=drift_trained  frame=104 P      704 bits   120.52 ms
+encode mode=drift_trained  frame=105 P      824 bits   123.03 ms
+encode mode=drift_trained  frame=106 P      880 bits   109.80 ms
+encode mode=drift_trained  frame=107 P      776 bits   141.42 ms
+encode mode=drift_trained  frame=108 P      720 bits   142.54 ms
+encode mode=drift_trained  frame=109 P      712 bits   110.24 ms
+encode mode=drift_trained  frame=110 P      768 bits   119.72 ms
+encode mode=drift_trained  frame=111 P      824 bits   112.65 ms
+encode mode=drift_trained  frame=112 P      800 bits   109.78 ms
+encode mode=drift_trained  frame=113 P      832 bits   132.73 ms
+encode mode=drift_trained  frame=114 P      704 bits   124.64 ms
+encode mode=drift_trained  frame=115 P      856 bits   135.99 ms
+encode mode=drift_trained  frame=116 P      784 bits   135.35 ms
+encode mode=drift_trained  frame=117 P      720 bits   131.37 ms
+encode mode=drift_trained  frame=118 P      776 bits   120.58 ms
+encode mode=drift_trained  frame=119 P      712 bits   122.91 ms
+encode mode=drift_trained  frame=120 P      720 bits   120.75 ms
+encode mode=drift_trained  frame=121 P      888 bits   134.22 ms
+encode mode=drift_trained  frame=122 P      776 bits   133.20 ms
+encode mode=drift_trained  frame=123 P      680 bits   118.46 ms
+encode mode=drift_trained  frame=124 P      792 bits   144.38 ms
+encode mode=drift_trained  frame=125 P      760 bits   138.69 ms
+encode mode=drift_trained  frame=126 P      792 bits   115.00 ms
+encode mode=drift_trained  frame=127 P      824 bits   135.46 ms
+encode mode=drift_trained  frame=128 I     4960 bits   335.80 ms
+encode mode=drift_trained  frame=129 P     4352 bits   140.33 ms
+encode mode=drift_trained  frame=130 P     2576 bits   119.36 ms
+encode mode=drift_trained  frame=131 P     1328 bits   111.99 ms
+encode mode=drift_trained  frame=132 P      920 bits   143.85 ms
+encode mode=drift_trained  frame=133 P      792 bits   143.45 ms
+encode mode=drift_trained  frame=134 P      672 bits   118.52 ms
+encode mode=drift_trained  frame=135 P      720 bits   133.11 ms
+encode mode=drift_trained  frame=136 P      824 bits   134.45 ms
+encode mode=drift_trained  frame=137 P      768 bits   115.24 ms
+encode mode=drift_trained  frame=138 P      864 bits   141.78 ms
+encode mode=drift_trained  frame=139 P      752 bits   132.78 ms
+encode mode=drift_trained  frame=140 P      840 bits   140.75 ms
+encode mode=drift_trained  frame=141 P      688 bits   116.91 ms
+encode mode=drift_trained  frame=142 P      712 bits   133.99 ms
+encode mode=drift_trained  frame=143 P      744 bits   131.73 ms
+encode mode=drift_trained  frame=144 P      840 bits   116.58 ms
+encode mode=drift_trained  frame=145 P      672 bits   138.20 ms
+encode mode=drift_trained  frame=146 P      744 bits   147.00 ms
+encode mode=drift_trained  frame=147 P      816 bits   118.63 ms
+encode mode=drift_trained  frame=148 P      792 bits   142.31 ms
+encode mode=drift_trained  frame=149 P      816 bits   139.40 ms
+encode mode=drift_trained  frame=150 P      808 bits   117.56 ms
+encode mode=drift_trained  frame=151 P      704 bits   143.81 ms
+encode mode=drift_trained  frame=152 P      824 bits   134.01 ms
+encode mode=drift_trained  frame=153 P      952 bits   121.84 ms
+encode mode=drift_trained  frame=154 P     1016 bits   108.75 ms
+encode mode=drift_trained  frame=155 P      800 bits   149.95 ms
+encode mode=drift_trained  frame=156 P      832 bits   131.36 ms
+encode mode=drift_trained  frame=157 P      984 bits   113.78 ms
+encode mode=drift_trained  frame=158 P      808 bits   126.41 ms
+encode mode=drift_trained  frame=159 P      904 bits   108.70 ms
+encode mode=drift_trained  frame=160 I     4856 bits   283.49 ms
+encode mode=drift_trained  frame=161 P     4592 bits   134.24 ms
+encode mode=drift_trained  frame=162 P     2536 bits   125.06 ms
+encode mode=drift_trained  frame=163 P     1264 bits   114.53 ms
+encode mode=drift_trained  frame=164 P      856 bits   144.62 ms
+encode mode=drift_trained  frame=165 P      672 bits   146.55 ms
+encode mode=drift_trained  frame=166 P      712 bits   114.18 ms
+encode mode=drift_trained  frame=167 P      680 bits   141.42 ms
+encode mode=drift_trained  frame=168 P      624 bits   131.94 ms
+encode mode=drift_trained  frame=169 P      712 bits   132.58 ms
+encode mode=drift_trained  frame=170 P      704 bits   123.55 ms
+encode mode=drift_trained  frame=171 P      688 bits   134.42 ms
+encode mode=drift_trained  frame=172 P      736 bits   114.00 ms
+encode mode=drift_trained  frame=173 P      784 bits   143.63 ms
+encode mode=drift_trained  frame=174 P      736 bits   129.63 ms
+encode mode=drift_trained  frame=175 P      752 bits   122.73 ms
+encode mode=drift_trained  frame=176 P      720 bits   154.49 ms
+encode mode=drift_trained  frame=177 P      720 bits   130.21 ms
+encode mode=drift_trained  frame=178 P      744 bits   150.54 ms
+encode mode=drift_trained  frame=179 P      856 bits   140.14 ms
+encode mode=drift_trained  frame=180 P      800 bits   123.49 ms
+encode mode=drift_trained  frame=181 P      696 bits   135.63 ms
+encode mode=drift_trained  frame=182 P      776 bits   140.52 ms
+encode mode=drift_trained  frame=183 P      768 bits   140.30 ms
+encode mode=drift_trained  frame=184 P      768 bits   119.94 ms
+encode mode=drift_trained  frame=185 P      840 bits   123.39 ms
+encode mode=drift_trained  frame=186 P      728 bits   141.52 ms
+encode mode=drift_trained  frame=187 P      744 bits   138.50 ms
+encode mode=drift_trained  frame=188 P      792 bits   138.93 ms
+encode mode=drift_trained  frame=189 P      768 bits   116.53 ms
+encode mode=drift_trained  frame=190 P     1000 bits   127.18 ms
+encode mode=drift_trained  frame=191 P      880 bits   108.30 ms
+encode mode=drift_trained  frame=192 I     4968 bits   215.75 ms
+encode mode=drift_trained  frame=193 P     4496 bits   136.71 ms
+encode mode=drift_trained  frame=194 P     2544 bits   124.29 ms
+encode mode=drift_trained  frame=195 P     1312 bits   116.94 ms
+encode mode=drift_trained  frame=196 P      896 bits   121.00 ms
+encode mode=drift_trained  frame=197 P      672 bits   136.71 ms
+encode mode=drift_trained  frame=198 P      680 bits   122.10 ms
+encode mode=drift_trained  frame=199 P      664 bits   136.01 ms
+encode mode=drift_trained  frame=200 P      624 bits   139.34 ms
+encode mode=drift_trained  frame=201 P      608 bits   146.26 ms
+encode mode=drift_trained  frame=202 P      840 bits   115.40 ms
+encode mode=drift_trained  frame=203 P      592 bits   135.79 ms
+encode mode=drift_trained  frame=204 P      608 bits   127.06 ms
+encode mode=drift_trained  frame=205 P      752 bits   114.33 ms
+encode mode=drift_trained  frame=206 P      832 bits   120.41 ms
+encode mode=drift_trained  frame=207 P      776 bits   136.94 ms
+encode mode=drift_trained  frame=208 P      880 bits   140.90 ms
+encode mode=drift_trained  frame=209 P      920 bits   113.28 ms
+encode mode=drift_trained  frame=210 P      832 bits   116.89 ms
+encode mode=drift_trained  frame=211 P      848 bits   131.21 ms
+encode mode=drift_trained  frame=212 P      872 bits   107.43 ms
+encode mode=drift_trained  frame=213 P      936 bits   105.88 ms
+encode mode=drift_trained  frame=214 P      856 bits   126.98 ms
+encode mode=drift_trained  frame=215 P      904 bits   128.02 ms
+encode mode=drift_trained  frame=216 P      952 bits   123.98 ms
+encode mode=drift_trained  frame=217 P      856 bits   130.19 ms
+encode mode=drift_trained  frame=218 P      872 bits   101.01 ms
+encode mode=drift_trained  frame=219 P      936 bits   134.93 ms
+encode mode=drift_trained  frame=220 P      880 bits   141.48 ms
+encode mode=drift_trained  frame=221 P      856 bits   117.90 ms
+encode mode=drift_trained  frame=222 P      840 bits   142.85 ms
+encode mode=drift_trained  frame=223 P      768 bits   144.91 ms
+encode mode=drift_trained  frame=224 I     4976 bits   226.26 ms
+encode mode=drift_trained  frame=225 P     4312 bits   121.16 ms
+encode mode=drift_trained  frame=226 P     2784 bits   129.72 ms
+encode mode=drift_trained  frame=227 P     1328 bits   138.78 ms
+encode mode=drift_trained  frame=228 P      880 bits   107.45 ms
+encode mode=drift_trained  frame=229 P      776 bits   131.04 ms
+encode mode=drift_trained  frame=230 P      672 bits   112.26 ms
+encode mode=drift_trained  frame=231 P      672 bits   126.11 ms
+encode mode=drift_trained  frame=232 P      616 bits   125.13 ms
+encode mode=drift_trained  frame=233 P      760 bits   113.31 ms
+encode mode=drift_trained  frame=234 P      800 bits   131.71 ms
+encode mode=drift_trained  frame=235 P      888 bits   119.92 ms
+encode mode=drift_trained  frame=236 P      800 bits   127.01 ms
+encode mode=drift_trained  frame=237 P      880 bits   119.42 ms
+encode mode=drift_trained  frame=238 P      752 bits   136.44 ms
+encode mode=drift_trained  frame=239 P      704 bits   128.64 ms
+encode mode=drift_trained  frame=240 P      664 bits   139.36 ms
+encode mode=drift_trained  frame=241 P      776 bits   137.55 ms
+encode mode=drift_trained  frame=242 P      776 bits   116.15 ms
+encode mode=drift_trained  frame=243 P      864 bits   140.59 ms
+encode mode=drift_trained  frame=244 P      832 bits   147.78 ms
+encode mode=drift_trained  frame=245 P      880 bits   148.43 ms
+encode mode=drift_trained  frame=246 P      864 bits   152.87 ms
+encode mode=drift_trained  frame=247 P      688 bits   147.03 ms
+encode mode=drift_trained  frame=248 P      856 bits   120.22 ms
+encode mode=drift_trained  frame=249 P      832 bits   130.06 ms
+encode mode=drift_trained  frame=250 P      904 bits   135.38 ms
+encode mode=drift_trained  frame=251 P      856 bits   117.27 ms
+encode mode=drift_trained  frame=252 P      952 bits   137.17 ms
+encode mode=drift_trained  frame=253 P      880 bits   124.58 ms
+encode mode=drift_trained  frame=254 P      848 bits   133.19 ms
+encode mode=drift_trained  frame=255 P      792 bits   128.96 ms
+encode mode=drift_trained  frame=256 I     4864 bits   214.59 ms
+encode mode=drift_trained  frame=257 P     4472 bits   114.76 ms
+encode mode=drift_trained  frame=258 P     2648 bits   142.60 ms
+encode mode=drift_trained  frame=259 P     1264 bits   138.27 ms
+encode mode=drift_trained  frame=260 P     1016 bits   116.58 ms
+encode mode=drift_trained  frame=261 P      872 bits   132.06 ms
+encode mode=drift_trained  frame=262 P      800 bits   127.64 ms
+encode mode=drift_trained  frame=263 P      680 bits   123.69 ms
+encode mode=drift_trained  frame=264 P      704 bits   122.58 ms
+encode mode=drift_trained  frame=265 P      696 bits   124.24 ms
+encode mode=drift_trained  frame=266 P      632 bits   134.23 ms
+encode mode=drift_trained  frame=267 P      568 bits   140.99 ms
+encode mode=drift_trained  frame=268 P      664 bits   120.26 ms
+encode mode=drift_trained  frame=269 P      656 bits   137.87 ms
+encode mode=drift_trained  frame=270 P      768 bits   137.67 ms
+encode mode=drift_trained  frame=271 P      808 bits   126.02 ms
+encode mode=drift_trained  frame=272 P      792 bits   128.23 ms
+encode mode=drift_trained  frame=273 P      816 bits   113.93 ms
+encode mode=drift_trained  frame=274 P      792 bits   130.24 ms
+encode mode=drift_trained  frame=275 P      984 bits   101.47 ms
+encode mode=drift_trained  frame=276 P      776 bits   124.89 ms
+encode mode=drift_trained  frame=277 P      824 bits   108.72 ms
+encode mode=drift_trained  frame=278 P      784 bits   126.86 ms
+encode mode=drift_trained  frame=279 P      912 bits   117.81 ms
+encode mode=drift_trained  frame=280 P      888 bits   141.71 ms
+encode mode=drift_trained  frame=281 P      824 bits   129.17 ms
+encode mode=drift_trained  frame=282 P      752 bits   110.83 ms
+encode mode=drift_trained  frame=283 P      800 bits   144.12 ms
+encode mode=drift_trained  frame=284 P      792 bits   136.00 ms
+encode mode=drift_trained  frame=285 P      952 bits   122.07 ms
+encode mode=drift_trained  frame=286 P      936 bits   115.62 ms
+encode mode=drift_trained  frame=287 P      752 bits   109.91 ms
+encode mode=drift_trained  frame=288 I     4960 bits   223.17 ms
+encode mode=drift_trained  frame=289 P     4264 bits   121.50 ms
+encode mode=drift_trained  frame=290 P     2560 bits   105.15 ms
+encode mode=drift_trained  frame=291 P     1464 bits   136.86 ms
+encode mode=drift_trained  frame=292 P      904 bits   125.97 ms
+encode mode=drift_trained  frame=293 P      728 bits   116.06 ms
+encode mode=drift_trained  frame=294 P      672 bits   125.80 ms
+encode mode=drift_trained  frame=295 P      728 bits   116.77 ms
+encode mode=drift_trained  frame=296 P      712 bits   137.01 ms
+encode mode=drift_trained  frame=297 P      648 bits   146.91 ms
+encode mode=drift_trained  frame=298 P      712 bits   140.61 ms
+encode mode=drift_trained  frame=299 P      704 bits   140.69 ms
+decode mode=yoda_original  frame=000 I    23.67 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=001 P   234.23 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=002 P   236.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=003 P   239.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=004 P   215.99 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=005 P   261.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=006 P   236.20 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=007 P   271.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=008 P   292.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=009 P   264.47 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=010 P   280.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=011 P   271.15 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=012 P   283.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=013 P   297.28 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=014 P   283.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=015 P   300.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=016 P   276.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=017 P   293.39 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=018 P   315.80 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=019 P   281.16 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=020 P   275.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=021 P   291.13 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=022 P   294.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=023 P   226.37 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=024 P   241.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=025 P   214.60 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=026 P   228.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=027 P   216.85 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=028 P   230.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=029 P   229.01 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=030 P   233.89 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=031 P   248.06 ms
+decode mode=yoda_original  frame=032 I     1.99 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=033 P   270.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=034 P   288.67 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=035 P   305.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=036 P   243.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=037 P   221.21 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=038 P   240.22 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=039 P   216.98 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=040 P   292.00 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=041 P   305.39 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=042 P   312.63 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=043 P   297.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=044 P   276.17 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=045 P   218.37 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=046 P   232.74 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=047 P   229.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=048 P   253.21 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=049 P   270.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=050 P   219.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=051 P   256.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=052 P   248.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=053 P   241.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=054 P   249.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=055 P   240.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=056 P   247.05 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=057 P   204.05 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=058 P   229.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=059 P   219.56 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=060 P   242.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=061 P   225.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=062 P   235.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=063 P   202.16 ms
+decode mode=yoda_original  frame=064 I     3.19 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=065 P   237.89 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=066 P   204.37 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=067 P   208.72 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=068 P   216.29 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=069 P   209.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=070 P   223.27 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=071 P   215.16 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=072 P   215.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=073 P   242.74 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=074 P   211.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=075 P   224.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=076 P   208.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=077 P   228.63 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=078 P   221.28 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=079 P   225.56 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=080 P   282.53 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=081 P   216.52 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=082 P   231.95 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=083 P   212.07 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=084 P   200.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=085 P   224.85 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=086 P   250.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=087 P   216.33 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=088 P   200.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=089 P   221.72 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=090 P   220.51 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=091 P   216.92 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=092 P   200.75 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=093 P   222.59 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=094 P   225.01 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=095 P   221.01 ms
+decode mode=yoda_original  frame=096 I     3.63 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=097 P   231.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=098 P   227.75 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=099 P   203.51 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=100 P   320.21 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=101 P   214.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=102 P   247.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=103 P   218.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=104 P   259.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=105 P   221.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=106 P   210.98 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=107 P   208.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=108 P   212.23 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=109 P   208.39 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=110 P   251.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=111 P   205.26 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=112 P   220.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=113 P   205.93 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=114 P   197.75 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=115 P   221.93 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=116 P   206.98 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=117 P   237.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=118 P   221.15 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=119 P   213.86 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=120 P   202.28 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=121 P   197.45 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=122 P   205.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=123 P   237.05 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=124 P   250.07 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=125 P   225.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=126 P   215.72 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=127 P   208.54 ms
+decode mode=yoda_original  frame=128 I     1.97 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=129 P   218.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=130 P   224.30 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=131 P   212.85 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=132 P   245.15 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=133 P   293.57 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=134 P   262.30 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=135 P   227.03 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=136 P   272.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=137 P   190.96 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=138 P   239.23 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=139 P   220.39 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=140 P   211.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=141 P   213.65 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=142 P   225.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=143 P   231.39 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=144 P   213.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=145 P   218.96 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=146 P   228.80 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=147 P   233.22 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=148 P   216.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=149 P   206.63 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=150 P   222.70 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=151 P   211.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=152 P   221.83 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=153 P   217.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=154 P   242.07 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=155 P   218.53 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=156 P   229.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=157 P   238.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=158 P   210.45 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=159 P   219.27 ms
+decode mode=yoda_original  frame=160 I     2.13 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=161 P   201.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=162 P   206.11 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=163 P   197.58 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=164 P   217.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=165 P   214.22 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=166 P   196.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=167 P   235.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=168 P   200.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=169 P   206.90 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=170 P   223.05 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=171 P   223.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=172 P   219.74 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=173 P   203.08 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=174 P   238.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=175 P   215.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=176 P   218.27 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=177 P   208.00 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=178 P   217.50 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=179 P   245.71 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=180 P   223.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=181 P   243.34 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=182 P   201.21 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=183 P   238.07 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=184 P   219.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=185 P   231.38 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=186 P   225.51 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=187 P   213.94 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=188 P   244.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=189 P   236.07 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=190 P   255.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=191 P   276.34 ms
+decode mode=yoda_original  frame=192 I    18.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=193 P   217.99 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=194 P   224.56 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=195 P   214.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=196 P   225.33 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=197 P   223.76 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=198 P   216.20 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=199 P   256.73 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=200 P   239.92 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=201 P   244.24 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=202 P   214.20 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=203 P   280.40 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=204 P   246.80 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=205 P   240.34 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=206 P   203.92 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=207 P   204.03 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=208 P   231.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=209 P   221.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=210 P   267.32 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=211 P   271.83 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=212 P   201.18 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=213 P   197.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=214 P   201.90 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=215 P   217.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=216 P   228.20 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=217 P   243.06 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=218 P   241.63 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=219 P   200.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=220 P   216.95 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=221 P   242.95 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=222 P   211.61 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=223 P   265.05 ms
+decode mode=yoda_original  frame=224 I     5.67 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=225 P   232.96 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=226 P   215.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=227 P   303.54 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=228 P   293.98 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=229 P   268.19 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=230 P   204.48 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=231 P   225.80 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=232 P   233.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=233 P   251.44 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=234 P   237.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=235 P   214.55 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=236 P   266.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=237 P   281.26 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=238 P   301.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=239 P   275.61 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=240 P   294.88 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=241 P   305.30 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=242 P   269.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=243 P   293.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=244 P   246.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=245 P   239.25 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=246 P   216.31 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=247 P   240.31 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=248 P   250.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=249 P   280.34 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=250 P   269.38 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=251 P   306.57 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=252 P   278.40 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=253 P   280.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=254 P   279.81 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=255 P   281.60 ms
+decode mode=yoda_original  frame=256 I     3.09 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=257 P   268.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=258 P   273.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=259 P   301.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=260 P   277.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=261 P   272.16 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=262 P   282.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=263 P   285.29 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=264 P   289.49 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=265 P   298.15 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=266 P   281.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=267 P   267.82 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=268 P   304.84 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=269 P   293.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=270 P   287.56 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=271 P   242.42 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=272 P   304.35 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=273 P   287.68 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=274 P   234.26 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=275 P   253.66 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=276 P   231.36 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=277 P   284.13 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=278 P   296.41 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=279 P   286.87 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=280 P   295.02 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=281 P   306.51 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=282 P   269.12 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=283 P   279.64 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=284 P   263.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=285 P   312.22 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=286 P   268.57 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=287 P   271.21 ms
+decode mode=yoda_original  frame=288 I     2.04 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=289 P   288.78 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=290 P   272.79 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=291 P   265.93 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=292 P   297.51 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=293 P   263.14 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=294 P   288.77 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=295 P   281.83 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=296 P   289.60 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=297 P   274.91 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=298 P   308.26 ms
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+decode mode=yoda_original  frame=299 P   249.50 ms
+decode mode=drift_identity frame=000 I    65.22 ms
+decode mode=drift_identity frame=001 P   119.62 ms
+decode mode=drift_identity frame=002 P    94.63 ms
+decode mode=drift_identity frame=003 P   127.83 ms
+decode mode=drift_identity frame=004 P   109.36 ms
+decode mode=drift_identity frame=005 P   106.62 ms
+decode mode=drift_identity frame=006 P    87.39 ms
+decode mode=drift_identity frame=007 P   101.03 ms
+decode mode=drift_identity frame=008 P    95.38 ms
+decode mode=drift_identity frame=009 P    93.16 ms
+decode mode=drift_identity frame=010 P    97.08 ms
+decode mode=drift_identity frame=011 P   101.37 ms
+decode mode=drift_identity frame=012 P    84.89 ms
+decode mode=drift_identity frame=013 P    89.03 ms
+decode mode=drift_identity frame=014 P    89.23 ms
+decode mode=drift_identity frame=015 P    98.06 ms
+decode mode=drift_identity frame=016 P    86.01 ms
+decode mode=drift_identity frame=017 P    97.34 ms
+decode mode=drift_identity frame=018 P    75.19 ms
+decode mode=drift_identity frame=019 P    96.56 ms
+decode mode=drift_identity frame=020 P    77.08 ms
+decode mode=drift_identity frame=021 P    75.65 ms
+decode mode=drift_identity frame=022 P    84.29 ms
+decode mode=drift_identity frame=023 P    81.95 ms
+decode mode=drift_identity frame=024 P    94.91 ms
+decode mode=drift_identity frame=025 P    96.95 ms
+decode mode=drift_identity frame=026 P    84.10 ms
+decode mode=drift_identity frame=027 P    71.51 ms
+decode mode=drift_identity frame=028 P    89.55 ms
+decode mode=drift_identity frame=029 P    71.82 ms
+decode mode=drift_identity frame=030 P   100.59 ms
+decode mode=drift_identity frame=031 P    81.29 ms
+decode mode=drift_identity frame=032 I     1.28 ms
+decode mode=drift_identity frame=033 P    90.58 ms
+decode mode=drift_identity frame=034 P   108.46 ms
+decode mode=drift_identity frame=035 P   114.40 ms
+decode mode=drift_identity frame=036 P    81.52 ms
+decode mode=drift_identity frame=037 P    71.78 ms
+decode mode=drift_identity frame=038 P   105.67 ms
+decode mode=drift_identity frame=039 P    88.61 ms
+decode mode=drift_identity frame=040 P   102.38 ms
+decode mode=drift_identity frame=041 P    75.38 ms
+decode mode=drift_identity frame=042 P    99.12 ms
+decode mode=drift_identity frame=043 P    72.80 ms
+decode mode=drift_identity frame=044 P   107.96 ms
+decode mode=drift_identity frame=045 P    80.96 ms
+decode mode=drift_identity frame=046 P    77.65 ms
+decode mode=drift_identity frame=047 P    82.26 ms
+decode mode=drift_identity frame=048 P    78.14 ms
+decode mode=drift_identity frame=049 P    89.11 ms
+decode mode=drift_identity frame=050 P    71.98 ms
+decode mode=drift_identity frame=051 P   106.65 ms
+decode mode=drift_identity frame=052 P    91.86 ms
+decode mode=drift_identity frame=053 P    98.75 ms
+decode mode=drift_identity frame=054 P    78.77 ms
+decode mode=drift_identity frame=055 P   106.93 ms
+decode mode=drift_identity frame=056 P    82.04 ms
+decode mode=drift_identity frame=057 P    84.13 ms
+decode mode=drift_identity frame=058 P    90.58 ms
+decode mode=drift_identity frame=059 P    95.73 ms
+decode mode=drift_identity frame=060 P    82.90 ms
+decode mode=drift_identity frame=061 P    76.39 ms
+decode mode=drift_identity frame=062 P    99.34 ms
+decode mode=drift_identity frame=063 P    80.08 ms
+decode mode=drift_identity frame=064 I     1.29 ms
+decode mode=drift_identity frame=065 P   113.00 ms
+decode mode=drift_identity frame=066 P    85.92 ms
+decode mode=drift_identity frame=067 P    73.48 ms
+decode mode=drift_identity frame=068 P   106.60 ms
+decode mode=drift_identity frame=069 P    79.10 ms
+decode mode=drift_identity frame=070 P    88.49 ms
+decode mode=drift_identity frame=071 P    78.54 ms
+decode mode=drift_identity frame=072 P    86.94 ms
+decode mode=drift_identity frame=073 P    77.12 ms
+decode mode=drift_identity frame=074 P    99.55 ms
+decode mode=drift_identity frame=075 P    71.83 ms
+decode mode=drift_identity frame=076 P    96.05 ms
+decode mode=drift_identity frame=077 P    91.61 ms
+decode mode=drift_identity frame=078 P    96.74 ms
+decode mode=drift_identity frame=079 P    75.12 ms
+decode mode=drift_identity frame=080 P    91.85 ms
+decode mode=drift_identity frame=081 P    80.48 ms
+decode mode=drift_identity frame=082 P   100.54 ms
+decode mode=drift_identity frame=083 P    85.90 ms
+decode mode=drift_identity frame=084 P   104.63 ms
+decode mode=drift_identity frame=085 P    87.06 ms
+decode mode=drift_identity frame=086 P   105.19 ms
+decode mode=drift_identity frame=087 P    78.18 ms
+decode mode=drift_identity frame=088 P    98.53 ms
+decode mode=drift_identity frame=089 P    94.49 ms
+decode mode=drift_identity frame=090 P   111.74 ms
+decode mode=drift_identity frame=091 P    77.07 ms
+decode mode=drift_identity frame=092 P   104.00 ms
+decode mode=drift_identity frame=093 P    75.66 ms
+decode mode=drift_identity frame=094 P    96.28 ms
+decode mode=drift_identity frame=095 P    77.26 ms
+decode mode=drift_identity frame=096 I     1.23 ms
+decode mode=drift_identity frame=097 P    81.70 ms
+decode mode=drift_identity frame=098 P    87.61 ms
+decode mode=drift_identity frame=099 P    73.19 ms
+decode mode=drift_identity frame=100 P    89.92 ms
+decode mode=drift_identity frame=101 P    73.19 ms
+decode mode=drift_identity frame=102 P    99.50 ms
+decode mode=drift_identity frame=103 P    80.99 ms
+decode mode=drift_identity frame=104 P    97.85 ms
+decode mode=drift_identity frame=105 P    97.19 ms
+decode mode=drift_identity frame=106 P    97.25 ms
+decode mode=drift_identity frame=107 P    84.71 ms
+decode mode=drift_identity frame=108 P    90.19 ms
+decode mode=drift_identity frame=109 P    73.49 ms
+decode mode=drift_identity frame=110 P   112.52 ms
+decode mode=drift_identity frame=111 P    84.59 ms
+decode mode=drift_identity frame=112 P    81.93 ms
+decode mode=drift_identity frame=113 P   104.55 ms
+decode mode=drift_identity frame=114 P    97.39 ms
+decode mode=drift_identity frame=115 P    94.97 ms
+decode mode=drift_identity frame=116 P    86.36 ms
+decode mode=drift_identity frame=117 P    91.66 ms
+decode mode=drift_identity frame=118 P    87.00 ms
+decode mode=drift_identity frame=119 P    91.11 ms
+decode mode=drift_identity frame=120 P    74.06 ms
+decode mode=drift_identity frame=121 P    99.54 ms
+decode mode=drift_identity frame=122 P    74.87 ms
+decode mode=drift_identity frame=123 P    74.29 ms
+decode mode=drift_identity frame=124 P    94.32 ms
+decode mode=drift_identity frame=125 P    71.51 ms
+decode mode=drift_identity frame=126 P   101.77 ms
+decode mode=drift_identity frame=127 P    83.41 ms
+decode mode=drift_identity frame=128 I     2.63 ms
+decode mode=drift_identity frame=129 P    85.66 ms
+decode mode=drift_identity frame=130 P    96.70 ms
+decode mode=drift_identity frame=131 P   110.45 ms
+decode mode=drift_identity frame=132 P    78.95 ms
+decode mode=drift_identity frame=133 P    72.38 ms
+decode mode=drift_identity frame=134 P    88.49 ms
+decode mode=drift_identity frame=135 P    84.18 ms
+decode mode=drift_identity frame=136 P    89.24 ms
+decode mode=drift_identity frame=137 P   121.01 ms
+decode mode=drift_identity frame=138 P   115.89 ms
+decode mode=drift_identity frame=139 P    94.43 ms
+decode mode=drift_identity frame=140 P    74.80 ms
+decode mode=drift_identity frame=141 P    85.85 ms
+decode mode=drift_identity frame=142 P    88.35 ms
+decode mode=drift_identity frame=143 P    81.55 ms
+decode mode=drift_identity frame=144 P   102.38 ms
+decode mode=drift_identity frame=145 P    74.08 ms
+decode mode=drift_identity frame=146 P    93.02 ms
+decode mode=drift_identity frame=147 P    72.06 ms
+decode mode=drift_identity frame=148 P    87.51 ms
+decode mode=drift_identity frame=149 P    77.19 ms
+decode mode=drift_identity frame=150 P   104.40 ms
+decode mode=drift_identity frame=151 P    79.97 ms
+decode mode=drift_identity frame=152 P   112.56 ms
+decode mode=drift_identity frame=153 P    82.13 ms
+decode mode=drift_identity frame=154 P    74.72 ms
+decode mode=drift_identity frame=155 P   115.57 ms
+decode mode=drift_identity frame=156 P    84.20 ms
+decode mode=drift_identity frame=157 P   103.15 ms
+decode mode=drift_identity frame=158 P    83.29 ms
+decode mode=drift_identity frame=159 P   112.83 ms
+decode mode=drift_identity frame=160 I    15.25 ms
+decode mode=drift_identity frame=161 P    75.72 ms
+decode mode=drift_identity frame=162 P   110.57 ms
+decode mode=drift_identity frame=163 P    76.23 ms
+decode mode=drift_identity frame=164 P   100.38 ms
+decode mode=drift_identity frame=165 P    76.99 ms
+decode mode=drift_identity frame=166 P   107.05 ms
+decode mode=drift_identity frame=167 P    80.36 ms
+decode mode=drift_identity frame=168 P    95.53 ms
+decode mode=drift_identity frame=169 P    82.71 ms
+decode mode=drift_identity frame=170 P    75.43 ms
+decode mode=drift_identity frame=171 P    97.63 ms
+decode mode=drift_identity frame=172 P    83.17 ms
+decode mode=drift_identity frame=173 P   112.21 ms
+decode mode=drift_identity frame=174 P   120.11 ms
+decode mode=drift_identity frame=175 P    73.34 ms
+decode mode=drift_identity frame=176 P   117.72 ms
+decode mode=drift_identity frame=177 P   118.39 ms
+decode mode=drift_identity frame=178 P    92.32 ms
+decode mode=drift_identity frame=179 P    82.29 ms
+decode mode=drift_identity frame=180 P    88.95 ms
+decode mode=drift_identity frame=181 P   112.16 ms
+decode mode=drift_identity frame=182 P    83.54 ms
+decode mode=drift_identity frame=183 P   101.34 ms
+decode mode=drift_identity frame=184 P    86.68 ms
+decode mode=drift_identity frame=185 P   108.62 ms
+decode mode=drift_identity frame=186 P    73.71 ms
+decode mode=drift_identity frame=187 P    82.28 ms
+decode mode=drift_identity frame=188 P    78.01 ms
+decode mode=drift_identity frame=189 P    96.25 ms
+decode mode=drift_identity frame=190 P    84.62 ms
+decode mode=drift_identity frame=191 P    89.30 ms
+decode mode=drift_identity frame=192 I     5.64 ms
+decode mode=drift_identity frame=193 P   109.97 ms
+decode mode=drift_identity frame=194 P   112.25 ms
+decode mode=drift_identity frame=195 P   119.90 ms
+decode mode=drift_identity frame=196 P   105.02 ms
+decode mode=drift_identity frame=197 P    92.44 ms
+decode mode=drift_identity frame=198 P   108.47 ms
+decode mode=drift_identity frame=199 P    89.63 ms
+decode mode=drift_identity frame=200 P   100.13 ms
+decode mode=drift_identity frame=201 P    82.23 ms
+decode mode=drift_identity frame=202 P    87.44 ms
+decode mode=drift_identity frame=203 P    97.91 ms
+decode mode=drift_identity frame=204 P    98.17 ms
+decode mode=drift_identity frame=205 P   107.96 ms
+decode mode=drift_identity frame=206 P    81.78 ms
+decode mode=drift_identity frame=207 P   110.00 ms
+decode mode=drift_identity frame=208 P    83.46 ms
+decode mode=drift_identity frame=209 P    88.68 ms
+decode mode=drift_identity frame=210 P   126.86 ms
+decode mode=drift_identity frame=211 P    99.86 ms
+decode mode=drift_identity frame=212 P   112.33 ms
+decode mode=drift_identity frame=213 P    82.00 ms
+decode mode=drift_identity frame=214 P    97.51 ms
+decode mode=drift_identity frame=215 P    83.54 ms
+decode mode=drift_identity frame=216 P    96.19 ms
+decode mode=drift_identity frame=217 P   116.29 ms
+decode mode=drift_identity frame=218 P    99.68 ms
+decode mode=drift_identity frame=219 P   104.33 ms
+decode mode=drift_identity frame=220 P   105.80 ms
+decode mode=drift_identity frame=221 P    89.28 ms
+decode mode=drift_identity frame=222 P   119.38 ms
+decode mode=drift_identity frame=223 P    84.74 ms
+decode mode=drift_identity frame=224 I     2.35 ms
+decode mode=drift_identity frame=225 P   114.46 ms
+decode mode=drift_identity frame=226 P    95.56 ms
+decode mode=drift_identity frame=227 P    93.87 ms
+decode mode=drift_identity frame=228 P   112.79 ms
+decode mode=drift_identity frame=229 P    88.76 ms
+decode mode=drift_identity frame=230 P   133.27 ms
+decode mode=drift_identity frame=231 P   141.51 ms
+decode mode=drift_identity frame=232 P   104.59 ms
+decode mode=drift_identity frame=233 P    98.99 ms
+decode mode=drift_identity frame=234 P   112.67 ms
+decode mode=drift_identity frame=235 P    85.61 ms
+decode mode=drift_identity frame=236 P   108.29 ms
+decode mode=drift_identity frame=237 P    86.90 ms
+decode mode=drift_identity frame=238 P    84.99 ms
+decode mode=drift_identity frame=239 P   106.76 ms
+decode mode=drift_identity frame=240 P   101.19 ms
+decode mode=drift_identity frame=241 P   114.86 ms
+decode mode=drift_identity frame=242 P    85.65 ms
+decode mode=drift_identity frame=243 P    94.79 ms
+decode mode=drift_identity frame=244 P    82.96 ms
+decode mode=drift_identity frame=245 P   107.60 ms
+decode mode=drift_identity frame=246 P    88.91 ms
+decode mode=drift_identity frame=247 P    93.38 ms
+decode mode=drift_identity frame=248 P    97.61 ms
+decode mode=drift_identity frame=249 P    98.61 ms
+decode mode=drift_identity frame=250 P    82.46 ms
+decode mode=drift_identity frame=251 P    99.71 ms
+decode mode=drift_identity frame=252 P   121.70 ms
+decode mode=drift_identity frame=253 P    82.45 ms
+decode mode=drift_identity frame=254 P   114.54 ms
+decode mode=drift_identity frame=255 P    84.51 ms
+decode mode=drift_identity frame=256 I     2.85 ms
+decode mode=drift_identity frame=257 P    91.43 ms
+decode mode=drift_identity frame=258 P    95.41 ms
+decode mode=drift_identity frame=259 P   100.82 ms
+decode mode=drift_identity frame=260 P   101.33 ms
+decode mode=drift_identity frame=261 P    95.49 ms
+decode mode=drift_identity frame=262 P    96.28 ms
+decode mode=drift_identity frame=263 P    82.61 ms
+decode mode=drift_identity frame=264 P    99.98 ms
+decode mode=drift_identity frame=265 P    88.73 ms
+decode mode=drift_identity frame=266 P   106.24 ms
+decode mode=drift_identity frame=267 P   104.13 ms
+decode mode=drift_identity frame=268 P    70.62 ms
+decode mode=drift_identity frame=269 P   101.82 ms
+decode mode=drift_identity frame=270 P    80.29 ms
+decode mode=drift_identity frame=271 P   107.88 ms
+decode mode=drift_identity frame=272 P    85.69 ms
+decode mode=drift_identity frame=273 P   116.53 ms
+decode mode=drift_identity frame=274 P    96.44 ms
+decode mode=drift_identity frame=275 P   102.43 ms
+decode mode=drift_identity frame=276 P   121.83 ms
+decode mode=drift_identity frame=277 P   130.33 ms
+decode mode=drift_identity frame=278 P   109.18 ms
+decode mode=drift_identity frame=279 P    96.50 ms
+decode mode=drift_identity frame=280 P   127.99 ms
+decode mode=drift_identity frame=281 P    88.79 ms
+decode mode=drift_identity frame=282 P    92.16 ms
+decode mode=drift_identity frame=283 P   106.64 ms
+decode mode=drift_identity frame=284 P    87.22 ms
+decode mode=drift_identity frame=285 P   100.80 ms
+decode mode=drift_identity frame=286 P    83.22 ms
+decode mode=drift_identity frame=287 P   100.33 ms
+decode mode=drift_identity frame=288 I     4.10 ms
+decode mode=drift_identity frame=289 P   105.22 ms
+decode mode=drift_identity frame=290 P    91.21 ms
+decode mode=drift_identity frame=291 P   115.16 ms
+decode mode=drift_identity frame=292 P    87.02 ms
+decode mode=drift_identity frame=293 P   111.91 ms
+decode mode=drift_identity frame=294 P    88.40 ms
+decode mode=drift_identity frame=295 P   101.94 ms
+decode mode=drift_identity frame=296 P    87.86 ms
+decode mode=drift_identity frame=297 P    97.91 ms
+decode mode=drift_identity frame=298 P    82.71 ms
+decode mode=drift_identity frame=299 P   106.54 ms
+decode mode=drift_trained  frame=000 I    57.10 ms
+decode mode=drift_trained  frame=001 P    90.67 ms
+decode mode=drift_trained  frame=002 P    94.66 ms
+decode mode=drift_trained  frame=003 P    84.11 ms
+decode mode=drift_trained  frame=004 P    99.82 ms
+decode mode=drift_trained  frame=005 P    98.45 ms
+decode mode=drift_trained  frame=006 P    99.83 ms
+decode mode=drift_trained  frame=007 P   108.35 ms
+decode mode=drift_trained  frame=008 P    91.50 ms
+decode mode=drift_trained  frame=009 P   106.63 ms
+decode mode=drift_trained  frame=010 P    82.94 ms
+decode mode=drift_trained  frame=011 P   103.37 ms
+decode mode=drift_trained  frame=012 P    87.95 ms
+decode mode=drift_trained  frame=013 P    99.98 ms
+decode mode=drift_trained  frame=014 P    86.47 ms
+decode mode=drift_trained  frame=015 P    99.19 ms
+decode mode=drift_trained  frame=016 P    74.07 ms
+decode mode=drift_trained  frame=017 P   101.74 ms
+decode mode=drift_trained  frame=018 P    80.70 ms
+decode mode=drift_trained  frame=019 P    94.75 ms
+decode mode=drift_trained  frame=020 P    90.64 ms
+decode mode=drift_trained  frame=021 P    90.49 ms
+decode mode=drift_trained  frame=022 P    85.84 ms
+decode mode=drift_trained  frame=023 P    98.99 ms
+decode mode=drift_trained  frame=024 P   105.11 ms
+decode mode=drift_trained  frame=025 P    99.01 ms
+decode mode=drift_trained  frame=026 P    92.78 ms
+decode mode=drift_trained  frame=027 P    93.34 ms
+decode mode=drift_trained  frame=028 P   106.65 ms
+decode mode=drift_trained  frame=029 P    87.04 ms
+decode mode=drift_trained  frame=030 P   107.56 ms
+decode mode=drift_trained  frame=031 P    85.59 ms
+decode mode=drift_trained  frame=032 I     2.09 ms
+decode mode=drift_trained  frame=033 P   112.05 ms
+decode mode=drift_trained  frame=034 P   114.19 ms
+decode mode=drift_trained  frame=035 P   102.61 ms
+decode mode=drift_trained  frame=036 P   100.41 ms
+decode mode=drift_trained  frame=037 P   117.27 ms
+decode mode=drift_trained  frame=038 P    86.42 ms
+decode mode=drift_trained  frame=039 P   104.81 ms
+decode mode=drift_trained  frame=040 P    91.01 ms
+decode mode=drift_trained  frame=041 P   117.40 ms
+decode mode=drift_trained  frame=042 P    81.43 ms
+decode mode=drift_trained  frame=043 P   100.47 ms
+decode mode=drift_trained  frame=044 P    84.84 ms
+decode mode=drift_trained  frame=045 P    89.90 ms
+decode mode=drift_trained  frame=046 P    93.08 ms
+decode mode=drift_trained  frame=047 P    99.15 ms
+decode mode=drift_trained  frame=048 P   105.36 ms
+decode mode=drift_trained  frame=049 P    82.07 ms
+decode mode=drift_trained  frame=050 P   104.60 ms
+decode mode=drift_trained  frame=051 P    80.98 ms
+decode mode=drift_trained  frame=052 P    76.89 ms
+decode mode=drift_trained  frame=053 P    85.90 ms
+decode mode=drift_trained  frame=054 P   113.96 ms
+decode mode=drift_trained  frame=055 P    98.52 ms
+decode mode=drift_trained  frame=056 P   109.06 ms
+decode mode=drift_trained  frame=057 P    84.89 ms
+decode mode=drift_trained  frame=058 P    95.29 ms
+decode mode=drift_trained  frame=059 P    99.70 ms
+decode mode=drift_trained  frame=060 P   100.82 ms
+decode mode=drift_trained  frame=061 P    97.65 ms
+decode mode=drift_trained  frame=062 P    87.03 ms
+decode mode=drift_trained  frame=063 P    96.94 ms
+decode mode=drift_trained  frame=064 I     2.58 ms
+decode mode=drift_trained  frame=065 P    84.13 ms
+decode mode=drift_trained  frame=066 P    90.05 ms
+decode mode=drift_trained  frame=067 P    91.62 ms
+decode mode=drift_trained  frame=068 P    92.24 ms
+decode mode=drift_trained  frame=069 P   126.55 ms
+decode mode=drift_trained  frame=070 P    99.74 ms
+decode mode=drift_trained  frame=071 P   112.45 ms
+decode mode=drift_trained  frame=072 P    94.07 ms
+decode mode=drift_trained  frame=073 P    95.81 ms
+decode mode=drift_trained  frame=074 P   125.61 ms
+decode mode=drift_trained  frame=075 P    89.45 ms
+decode mode=drift_trained  frame=076 P    92.37 ms
+decode mode=drift_trained  frame=077 P    85.99 ms
+decode mode=drift_trained  frame=078 P   113.81 ms
+decode mode=drift_trained  frame=079 P    78.29 ms
+decode mode=drift_trained  frame=080 P   104.97 ms
+decode mode=drift_trained  frame=081 P    84.75 ms
+decode mode=drift_trained  frame=082 P   129.25 ms
+decode mode=drift_trained  frame=083 P    97.81 ms
+decode mode=drift_trained  frame=084 P   118.42 ms
+decode mode=drift_trained  frame=085 P    91.60 ms
+decode mode=drift_trained  frame=086 P   101.75 ms
+decode mode=drift_trained  frame=087 P    91.85 ms
+decode mode=drift_trained  frame=088 P   109.34 ms
+decode mode=drift_trained  frame=089 P    85.91 ms
+decode mode=drift_trained  frame=090 P   106.77 ms
+decode mode=drift_trained  frame=091 P    88.70 ms
+decode mode=drift_trained  frame=092 P    89.05 ms
+decode mode=drift_trained  frame=093 P   108.99 ms
+decode mode=drift_trained  frame=094 P   104.86 ms
+decode mode=drift_trained  frame=095 P    94.29 ms
+decode mode=drift_trained  frame=096 I     6.01 ms
+decode mode=drift_trained  frame=097 P    89.30 ms
+decode mode=drift_trained  frame=098 P   108.35 ms
+decode mode=drift_trained  frame=099 P    91.94 ms
+decode mode=drift_trained  frame=100 P   108.61 ms
+decode mode=drift_trained  frame=101 P    86.03 ms
+decode mode=drift_trained  frame=102 P   109.22 ms
+decode mode=drift_trained  frame=103 P    91.60 ms
+decode mode=drift_trained  frame=104 P    93.19 ms
+decode mode=drift_trained  frame=105 P   101.90 ms
+decode mode=drift_trained  frame=106 P    99.97 ms
+decode mode=drift_trained  frame=107 P   112.31 ms
+decode mode=drift_trained  frame=108 P   107.65 ms
+decode mode=drift_trained  frame=109 P   112.37 ms
+decode mode=drift_trained  frame=110 P    87.31 ms
+decode mode=drift_trained  frame=111 P    77.47 ms
+decode mode=drift_trained  frame=112 P    84.92 ms
+decode mode=drift_trained  frame=113 P    76.54 ms
+decode mode=drift_trained  frame=114 P    97.84 ms
+decode mode=drift_trained  frame=115 P    78.99 ms
+decode mode=drift_trained  frame=116 P   112.54 ms
+decode mode=drift_trained  frame=117 P    72.84 ms
+decode mode=drift_trained  frame=118 P   105.54 ms
+decode mode=drift_trained  frame=119 P    81.71 ms
+decode mode=drift_trained  frame=120 P   126.42 ms
+decode mode=drift_trained  frame=121 P    81.03 ms
+decode mode=drift_trained  frame=122 P   103.97 ms
+decode mode=drift_trained  frame=123 P    84.00 ms
+decode mode=drift_trained  frame=124 P   107.93 ms
+decode mode=drift_trained  frame=125 P    89.74 ms
+decode mode=drift_trained  frame=126 P    92.50 ms
+decode mode=drift_trained  frame=127 P    99.64 ms
+decode mode=drift_trained  frame=128 I    11.85 ms
+decode mode=drift_trained  frame=129 P    90.13 ms
+decode mode=drift_trained  frame=130 P   111.55 ms
+decode mode=drift_trained  frame=131 P    85.53 ms
+decode mode=drift_trained  frame=132 P   110.22 ms
+decode mode=drift_trained  frame=133 P    85.94 ms
+decode mode=drift_trained  frame=134 P    88.08 ms
+decode mode=drift_trained  frame=135 P   106.65 ms
+decode mode=drift_trained  frame=136 P   101.72 ms
+decode mode=drift_trained  frame=137 P   110.10 ms
+decode mode=drift_trained  frame=138 P    94.47 ms
+decode mode=drift_trained  frame=139 P   109.77 ms
+decode mode=drift_trained  frame=140 P    84.93 ms
+decode mode=drift_trained  frame=141 P   102.93 ms
+decode mode=drift_trained  frame=142 P    82.78 ms
+decode mode=drift_trained  frame=143 P   113.60 ms
+decode mode=drift_trained  frame=144 P    98.37 ms
+decode mode=drift_trained  frame=145 P    98.00 ms
+decode mode=drift_trained  frame=146 P   106.75 ms
+decode mode=drift_trained  frame=147 P    86.57 ms
+decode mode=drift_trained  frame=148 P   110.72 ms
+decode mode=drift_trained  frame=149 P    86.19 ms
+decode mode=drift_trained  frame=150 P    92.60 ms
+decode mode=drift_trained  frame=151 P    93.32 ms
+decode mode=drift_trained  frame=152 P    90.63 ms
+decode mode=drift_trained  frame=153 P   106.70 ms
+decode mode=drift_trained  frame=154 P   109.94 ms
+decode mode=drift_trained  frame=155 P   116.55 ms
+decode mode=drift_trained  frame=156 P    97.79 ms
+decode mode=drift_trained  frame=157 P    96.36 ms
+decode mode=drift_trained  frame=158 P   111.36 ms
+decode mode=drift_trained  frame=159 P    97.46 ms
+decode mode=drift_trained  frame=160 I     2.08 ms
+decode mode=drift_trained  frame=161 P   107.01 ms
+decode mode=drift_trained  frame=162 P    90.71 ms
+decode mode=drift_trained  frame=163 P    79.92 ms
+decode mode=drift_trained  frame=164 P    83.90 ms
+decode mode=drift_trained  frame=165 P    87.49 ms
+decode mode=drift_trained  frame=166 P    96.77 ms
+decode mode=drift_trained  frame=167 P   105.99 ms
+decode mode=drift_trained  frame=168 P    90.48 ms
+decode mode=drift_trained  frame=169 P   122.24 ms
+decode mode=drift_trained  frame=170 P   108.17 ms
+decode mode=drift_trained  frame=171 P    99.22 ms
+decode mode=drift_trained  frame=172 P   113.21 ms
+decode mode=drift_trained  frame=173 P    99.10 ms
+decode mode=drift_trained  frame=174 P    93.58 ms
+decode mode=drift_trained  frame=175 P   110.17 ms
+decode mode=drift_trained  frame=176 P    89.02 ms
+decode mode=drift_trained  frame=177 P   129.24 ms
+decode mode=drift_trained  frame=178 P    91.14 ms
+decode mode=drift_trained  frame=179 P   107.26 ms
+decode mode=drift_trained  frame=180 P    96.02 ms
+decode mode=drift_trained  frame=181 P   106.39 ms
+decode mode=drift_trained  frame=182 P    93.67 ms
+decode mode=drift_trained  frame=183 P   101.68 ms
+decode mode=drift_trained  frame=184 P    80.80 ms
+decode mode=drift_trained  frame=185 P   106.52 ms
+decode mode=drift_trained  frame=186 P    76.29 ms
+decode mode=drift_trained  frame=187 P   109.91 ms
+decode mode=drift_trained  frame=188 P    81.13 ms
+decode mode=drift_trained  frame=189 P   108.68 ms
+decode mode=drift_trained  frame=190 P   124.04 ms
+decode mode=drift_trained  frame=191 P    89.68 ms
+decode mode=drift_trained  frame=192 I     1.50 ms
+decode mode=drift_trained  frame=193 P    90.19 ms
+decode mode=drift_trained  frame=194 P   100.59 ms
+decode mode=drift_trained  frame=195 P    87.87 ms
+decode mode=drift_trained  frame=196 P   118.11 ms
+decode mode=drift_trained  frame=197 P    90.63 ms
+decode mode=drift_trained  frame=198 P   105.53 ms
+decode mode=drift_trained  frame=199 P    88.91 ms
+decode mode=drift_trained  frame=200 P   130.30 ms
+decode mode=drift_trained  frame=201 P    90.68 ms
+decode mode=drift_trained  frame=202 P   125.38 ms
+decode mode=drift_trained  frame=203 P    84.04 ms
+decode mode=drift_trained  frame=204 P   112.67 ms
+decode mode=drift_trained  frame=205 P    84.88 ms
+decode mode=drift_trained  frame=206 P   108.41 ms
+decode mode=drift_trained  frame=207 P   106.02 ms
+decode mode=drift_trained  frame=208 P    86.72 ms
+decode mode=drift_trained  frame=209 P    70.84 ms
+decode mode=drift_trained  frame=210 P    98.00 ms
+decode mode=drift_trained  frame=211 P    74.42 ms
+decode mode=drift_trained  frame=212 P    92.89 ms
+decode mode=drift_trained  frame=213 P    94.85 ms
+decode mode=drift_trained  frame=214 P    90.33 ms
+decode mode=drift_trained  frame=215 P    96.13 ms
+decode mode=drift_trained  frame=216 P   119.07 ms
+decode mode=drift_trained  frame=217 P    87.22 ms
+decode mode=drift_trained  frame=218 P   101.84 ms
+decode mode=drift_trained  frame=219 P    84.79 ms
+decode mode=drift_trained  frame=220 P   108.94 ms
+decode mode=drift_trained  frame=221 P    96.24 ms
+decode mode=drift_trained  frame=222 P    82.86 ms
+decode mode=drift_trained  frame=223 P    80.73 ms
+decode mode=drift_trained  frame=224 I     3.23 ms
+decode mode=drift_trained  frame=225 P   108.41 ms
+decode mode=drift_trained  frame=226 P   110.47 ms
+decode mode=drift_trained  frame=227 P   124.49 ms
+decode mode=drift_trained  frame=228 P   114.61 ms
+decode mode=drift_trained  frame=229 P    84.57 ms
+decode mode=drift_trained  frame=230 P    97.07 ms
+decode mode=drift_trained  frame=231 P    96.25 ms
+decode mode=drift_trained  frame=232 P    96.16 ms
+decode mode=drift_trained  frame=233 P    95.36 ms
+decode mode=drift_trained  frame=234 P    99.99 ms
+decode mode=drift_trained  frame=235 P    88.95 ms
+decode mode=drift_trained  frame=236 P   105.27 ms
+decode mode=drift_trained  frame=237 P    96.33 ms
+decode mode=drift_trained  frame=238 P   125.24 ms
+decode mode=drift_trained  frame=239 P    85.36 ms
+decode mode=drift_trained  frame=240 P   107.84 ms
+decode mode=drift_trained  frame=241 P    86.62 ms
+decode mode=drift_trained  frame=242 P    97.10 ms
+decode mode=drift_trained  frame=243 P    82.37 ms
+decode mode=drift_trained  frame=244 P   106.74 ms
+decode mode=drift_trained  frame=245 P    82.50 ms
+decode mode=drift_trained  frame=246 P    97.34 ms
+decode mode=drift_trained  frame=247 P    90.39 ms
+decode mode=drift_trained  frame=248 P    95.41 ms
+decode mode=drift_trained  frame=249 P   123.58 ms
+decode mode=drift_trained  frame=250 P    83.77 ms
+decode mode=drift_trained  frame=251 P   105.39 ms
+decode mode=drift_trained  frame=252 P    89.92 ms
+decode mode=drift_trained  frame=253 P    97.00 ms
+decode mode=drift_trained  frame=254 P   103.86 ms
+decode mode=drift_trained  frame=255 P    88.05 ms
+decode mode=drift_trained  frame=256 I     1.48 ms
+decode mode=drift_trained  frame=257 P   109.59 ms
+decode mode=drift_trained  frame=258 P    83.08 ms
+decode mode=drift_trained  frame=259 P    91.95 ms
+decode mode=drift_trained  frame=260 P    83.55 ms
+decode mode=drift_trained  frame=261 P   121.00 ms
+decode mode=drift_trained  frame=262 P    83.68 ms
+decode mode=drift_trained  frame=263 P   114.37 ms
+decode mode=drift_trained  frame=264 P    83.63 ms
+decode mode=drift_trained  frame=265 P    88.41 ms
+decode mode=drift_trained  frame=266 P    99.86 ms
+decode mode=drift_trained  frame=267 P    95.53 ms
+decode mode=drift_trained  frame=268 P   101.95 ms
+decode mode=drift_trained  frame=269 P    82.82 ms
+decode mode=drift_trained  frame=270 P    90.04 ms
+decode mode=drift_trained  frame=271 P   102.23 ms
+decode mode=drift_trained  frame=272 P    92.90 ms
+decode mode=drift_trained  frame=273 P   111.17 ms
+decode mode=drift_trained  frame=274 P    81.41 ms
+decode mode=drift_trained  frame=275 P   116.45 ms
+decode mode=drift_trained  frame=276 P    86.20 ms
+/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/lpips/lpips.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.load_state_dict(torch.load(model_path, map_location='cpu'), strict=False)
+/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/amax/Public/YODA/scripts/run_real_yoda_drift.py:1182: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  torch.from_numpy(reconstructed_np)
+decode mode=drift_trained  frame=277 P   101.13 ms
+decode mode=drift_trained  frame=278 P    84.81 ms
+decode mode=drift_trained  frame=279 P    92.61 ms
+decode mode=drift_trained  frame=280 P   107.34 ms
+decode mode=drift_trained  frame=281 P    96.33 ms
+decode mode=drift_trained  frame=282 P   110.69 ms
+decode mode=drift_trained  frame=283 P    91.20 ms
+decode mode=drift_trained  frame=284 P    98.70 ms
+decode mode=drift_trained  frame=285 P    71.18 ms
+decode mode=drift_trained  frame=286 P    74.10 ms
+decode mode=drift_trained  frame=287 P   106.52 ms
+decode mode=drift_trained  frame=288 I     5.86 ms
+decode mode=drift_trained  frame=289 P    82.43 ms
+decode mode=drift_trained  frame=290 P   111.35 ms
+decode mode=drift_trained  frame=291 P    89.08 ms
+decode mode=drift_trained  frame=292 P    97.62 ms
+decode mode=drift_trained  frame=293 P   107.33 ms
+decode mode=drift_trained  frame=294 P    85.54 ms
+decode mode=drift_trained  frame=295 P   115.01 ms
+decode mode=drift_trained  frame=296 P    86.89 ms
+decode mode=drift_trained  frame=297 P    81.46 ms
+decode mode=drift_trained  frame=298 P    85.25 ms
+decode mode=drift_trained  frame=299 P    88.04 ms
+metrics mode=yoda_original  psnr=26.8822 msssim=0.920972 lpips=0.039359 dists=0.0628304 bpp=0.011103 encode_ms=293.713 decode_ms=235.228
+metrics mode=drift_identity psnr=21.2075 msssim=0.85438 lpips=0.093263 dists=0.125154 bpp=0.0132115 encode_ms=133.65 decode_ms=91.0153
+metrics mode=drift_trained  psnr=26.8735 msssim=0.920801 lpips=0.0394573 dists=0.0629353 bpp=0.0111482 encode_ms=134.472 decode_ms=94.2951
+{
+  "status": "ok",
+  "held_out": {
+    "yoda_original": {
+      "frames": 100,
+      "psnr": {
+        "mean": 26.803681716918945,
+        "std": 0.5710245798238752,
+        "min": 23.95656967163086,
+        "max": 27.389829635620117
+      },
+      "msssim": {
+        "mean": 0.9203813731670379,
+        "std": 0.008671080848740404,
+        "min": 0.8722180128097534,
+        "max": 0.9268907308578491
+      },
+      "lpips": {
+        "mean": 0.03907291889190674,
+        "std": 0.008437888898695753,
+        "min": 0.034846264868974686,
+        "max": 0.08586084842681885
+      },
+      "dists": {
+        "mean": 0.06115546703338623,
+        "std": 0.007332552654294608,
+        "min": 0.05134427547454834,
+        "max": 0.0976293683052063
+      },
+      "bpp": {
+        "mean": 0.010802556818181817,
+        "std": 0.009492356983310541,
+        "min": 0.005129419191919192,
+        "max": 0.04908459595959596
+      },
+      "encode_ms": {
+        "mean": 306.47422533482313,
+        "std": 35.74270909416539,
+        "min": 214.59021791815758,
+        "max": 374.21657145023346
+      },
+      "decode_ms": {
+        "mean": 254.36828825622797,
+        "std": 53.673637444523706,
+        "min": 2.042211592197418,
+        "max": 312.2156113386154
+      }
+    },
+    "drift_identity": {
+      "frames": 100,
+      "psnr": {
+        "mean": 21.186512603759766,
+        "std": 0.9206722130550862,
+        "min": 18.453876495361328,
+        "max": 24.0810546875
+      },
+      "msssim": {
+        "mean": 0.8533599960803986,
+        "std": 0.016607681036228065,
+        "min": 0.7879817485809326,
+        "max": 0.8756222128868103
+      },
+      "lpips": {
+        "mean": 0.09287484377622604,
+        "std": 0.014731665494484975,
+        "min": 0.08112005889415741,
+        "max": 0.16183601319789886
+      },
+      "dists": {
+        "mean": 0.12544822096824645,
+        "std": 0.011876728945891247,
+        "min": 0.08648109436035156,
+        "max": 0.1739192008972168
+      },
+      "bpp": {
+        "mean": 0.012847222222222223,
+        "std": 0.0095632609464945,
+        "min": 0.007023358585858586,
+        "max": 0.04908459595959596
+      },
+      "encode_ms": {
+        "mean": 127.64984637498856,
+        "std": 19.68713025847171,
+        "min": 103.11879217624664,
+        "max": 226.26425325870514
+      },
+      "decode_ms": {
+        "mean": 96.29808470606804,
+        "std": 21.01702212825676,
+        "min": 2.3519322276115417,
+        "max": 141.51283726096153
+      }
+    },
+    "drift_trained": {
+      "frames": 100,
+      "psnr": {
+        "mean": 26.82906988143921,
+        "std": 0.5734123695500333,
+        "min": 23.95656967163086,
+        "max": 27.362106323242188
+      },
+      "msssim": {
+        "mean": 0.9209284752607345,
+        "std": 0.008693403112592774,
+        "min": 0.8722180128097534,
+        "max": 0.9281972646713257
+      },
+      "lpips": {
+        "mean": 0.039201218374073504,
+        "std": 0.008427457519272636,
+        "min": 0.03486711159348488,
+        "max": 0.08586084842681885
+      },
+      "dists": {
+        "mean": 0.061462635397911074,
+        "std": 0.007334775263404168,
+        "min": 0.049121081829071045,
+        "max": 0.0976293683052063
+      },
+      "bpp": {
+        "mean": 0.010855429292929293,
+        "std": 0.009477173237739037,
+        "min": 0.00560290404040404,
+        "max": 0.04908459595959596
+      },
+      "encode_ms": {
+        "mean": 130.46442203223705,
+        "std": 19.787725213206024,
+        "min": 101.00599750876427,
+        "max": 226.26425325870514
+      },
+      "decode_ms": {
+        "mean": 93.69639109820127,
+        "std": 20.41079737808125,
+        "min": 1.4770403504371643,
+        "max": 130.3032897412777
+      }
+    }
+  },
+  "videos": {
+    "original": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/original.mp4",
+    "yoda_original": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/yoda_original.mp4",
+    "drift_identity": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/drift_identity.mp4",
+    "drift_trained": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/drift_trained.mp4",
+    "comparison_side_by_side": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/comparison_side_by_side.mp4",
+    "comparison_2x2": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/comparison_2x2.mp4",
+    "error_yoda": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/error_yoda.mp4",
+    "error_drift": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/error_drift.mp4"
+  }
+}

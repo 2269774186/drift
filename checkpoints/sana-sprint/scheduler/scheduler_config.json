@@ -1,0 +1,7 @@
+{
+  "_class_name": "SCMScheduler",
+  "_diffusers_version": "0.33.0.dev0",
+  "num_train_timesteps": 1000,
+  "prediction_type": "trigflow",
+  "sigma_data": 0.5
+}

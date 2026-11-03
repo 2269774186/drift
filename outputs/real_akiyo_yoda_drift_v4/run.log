@@ -1,0 +1,96 @@
+cannot import cuda implementation for inference, fallback to pytorch.
+[SD-Turbo]: Building SD-Turbo ......
+/home/amax/Public/YODA/upstream/YODA-main/src/YODA_INTRA.py:42: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.prompt_embeds = torch.load(args.prompt_embeds_path, map_location="cpu")
+/home/amax/Public/YODA/upstream/YODA-main/src/YODA_INTRA.py:43: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.prompt_attention_mask = torch.load(
+/home/amax/Public/YODA/upstream/YODA-main/utils/utils.py:27: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=torch.device('cpu'))
+Loaded checkpoint: {'codec': 293, 'vae': 375, 'transformer': 450}
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=000 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=032 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=064 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=096 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=128 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=160 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=192 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=224 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=256 roundtrip=0.000e+00
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+Set timesteps: tensor([1.5708, 0.0000], device='cuda:0')
+intra frame=288 roundtrip=0.000e+00
+/home/amax/Public/YODA/yoda_drift/yoda_hybrid.py:148: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  prompt_embeds = torch.load(prompt_embeds_path, map_location="cpu")
+/home/amax/Public/YODA/yoda_drift/yoda_hybrid.py:149: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  prompt_attention_mask = torch.load(
+encode mode=yoda_original  frame=000 I     5088 bits   910.96 ms
+Traceback (most recent call last):
+  File "/home/amax/Public/YODA/scripts/run_real_yoda_drift.py", line 1667, in <module>
+    main()
+  File "/home/amax/Public/YODA/scripts/run_real_yoda_drift.py", line 1639, in main
+    _, encode_report = prepare_and_encode(args, output_dir, device)
+  File "/home/amax/Public/YODA/scripts/run_real_yoda_drift.py", line 845, in prepare_and_encode
+    original_manifest = encode_mode(
+  File "/home/amax/Public/YODA/scripts/run_real_yoda_drift.py", line 554, in encode_mode
+    encoded = model.compress(x_padded, last_recon)
+  File "/home/amax/Public/YODA/yoda_drift/yoda_hybrid.py", line 456, in compress
+    ctxs, lq_latent = self._encode(c_t, last_recon)
+  File "/home/amax/Public/YODA/yoda_drift/yoda_hybrid.py", line 399, in _encode
+    latent = self.vae.encode(image, ctxs).latent * self.scaling_factor
+  File "/home/amax/Public/YODA/.venv/lib/python3.10/site-packages/diffusers/utils/accelerate_utils.py", line 46, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/TA_AE.py", line 648, in encode
+    encoded = self._encode(x, ctx)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/TA_AE.py", line 626, in _encode
+    encoded = self.encoder(x, ctx)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/TA_AE.py", line 334, in forward
+    hidden_states = self.fusion_blocks[i](hidden_states)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/rt_modules/layers/layers.py", line 129, in forward
+    return self.forward_torch(x, quant_step, to_cat, cat_at_front)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/rt_modules/layers/layers.py", line 136, in forward_torch
+    out = self.ffn(out) + out
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/rt_modules/layers/layers.py", line 71, in forward
+    x1, x2 = self.silu(x).chunk(2, 1)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/amax/.conda/envs/jnd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/amax/Public/YODA/upstream/YODA-main/src/rt_modules/layers/layers.py", line 62, in forward
+    return torch.sigmoid(4.0 * x) * x
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 240.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 73.44 MiB is free. Process 2797800 has 17.81 GiB memory in use. Including non-PyTorch memory, this process has 5.74 GiB memory in use. Of the allocated memory 4.88 GiB is allocated by PyTorch, and 405.48 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

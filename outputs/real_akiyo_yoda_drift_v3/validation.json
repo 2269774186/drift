@@ -1,0 +1,110 @@
+{
+  "original.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/original.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 352,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 89.32641190551347,
+    "sampled_mean_max": 91.54386311026936,
+    "sampled_std_min": 66.43336818223797
+  },
+  "yoda_original.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/yoda_original.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 352,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 88.45378919402357,
+    "sampled_mean_max": 91.72220249368686,
+    "sampled_std_min": 63.635088892540814
+  },
+  "drift_identity.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/drift_identity.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 352,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 68.26645688657408,
+    "sampled_mean_max": 90.11597090698653,
+    "sampled_std_min": 58.40161791041758
+  },
+  "drift_trained.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/drift_trained.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 352,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 88.4412517098064,
+    "sampled_mean_max": 93.5821989425505,
+    "sampled_std_min": 65.73716388927987
+  },
+  "comparison_side_by_side.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/comparison_side_by_side.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 1408,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 84.43888675163089,
+    "sampled_mean_max": 89.586812131734,
+    "sampled_std_min": 65.6365847062864
+  },
+  "comparison_2x2.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/comparison_2x2.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 704,
+    "height": 576,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 84.46130165588174,
+    "sampled_mean_max": 89.5985941774516,
+    "sampled_std_min": 65.64976173830021
+  },
+  "error_yoda.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/error_yoda.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 352,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 25.078993055555557,
+    "sampled_mean_max": 34.85983862058081,
+    "sampled_std_min": 34.90098477738531
+  },
+  "error_drift.mp4": {
+    "path": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v3/error_drift.mp4",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 352,
+    "height": 288,
+    "frames": 300,
+    "avg_frame_rate": "30000/1001",
+    "duration": 10.01,
+    "sampled_mean_min": 33.77073140256734,
+    "sampled_mean_max": 41.40921585648148,
+    "sampled_std_min": 43.21066267554243
+  },
+  "cross_video_difference": {
+    "original_vs_yoda_mean_abs": 6.543203353881836,
+    "yoda_vs_drift_trained_mean_abs": 8.45337200164795
+  }
+}

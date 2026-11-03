@@ -1,0 +1,1810 @@
+{
+  "mode": "drift_identity",
+  "frames": 300,
+  "height": 288,
+  "width": 352,
+  "bin": "/home/amax/Public/YODA/outputs/real_akiyo_yoda_drift_v4/artifacts/drift_identity.bin",
+  "bin_bytes": 50225,
+  "records": [
+    {
+      "frame": 0,
+      "is_i_frame": true,
+      "bit_bytes": 636,
+      "encode_seconds": 0.9109572991728783
+    },
+    {
+      "frame": 1,
+      "is_i_frame": false,
+      "bit_bytes": 559,
+      "encode_seconds": 0.22925202548503876
+    },
+    {
+      "frame": 2,
+      "is_i_frame": false,
+      "bit_bytes": 426,
+      "encode_seconds": 0.11433641985058784
+    },
+    {
+      "frame": 3,
+      "is_i_frame": false,
+      "bit_bytes": 230,
+      "encode_seconds": 0.1310892142355442
+    },
+    {
+      "frame": 4,
+      "is_i_frame": false,
+      "bit_bytes": 181,
+      "encode_seconds": 0.11830329895019531
+    },
+    {
+      "frame": 5,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.1440391093492508
+    },
+    {
+      "frame": 6,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.13435367867350578
+    },
+    {
+      "frame": 7,
+      "is_i_frame": false,
+      "bit_bytes": 94,
+      "encode_seconds": 0.14388783276081085
+    },
+    {
+      "frame": 8,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.11626734957098961
+    },
+    {
+      "frame": 9,
+      "is_i_frame": false,
+      "bit_bytes": 115,
+      "encode_seconds": 0.14325200766324997
+    },
+    {
+      "frame": 10,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.12760435789823532
+    },
+    {
+      "frame": 11,
+      "is_i_frame": false,
+      "bit_bytes": 103,
+      "encode_seconds": 0.1359090656042099
+    },
+    {
+      "frame": 12,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.13123943284153938
+    },
+    {
+      "frame": 13,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.12111687287688255
+    },
+    {
+      "frame": 14,
+      "is_i_frame": false,
+      "bit_bytes": 114,
+      "encode_seconds": 0.12438367679715157
+    },
+    {
+      "frame": 15,
+      "is_i_frame": false,
+      "bit_bytes": 129,
+      "encode_seconds": 0.11416729167103767
+    },
+    {
+      "frame": 16,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.12934604287147522
+    },
+    {
+      "frame": 17,
+      "is_i_frame": false,
+      "bit_bytes": 114,
+      "encode_seconds": 0.11029242351651192
+    },
+    {
+      "frame": 18,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.13209430500864983
+    },
+    {
+      "frame": 19,
+      "is_i_frame": false,
+      "bit_bytes": 124,
+      "encode_seconds": 0.11454519256949425
+    },
+    {
+      "frame": 20,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.1360783576965332
+    },
+    {
+      "frame": 21,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.13940071687102318
+    },
+    {
+      "frame": 22,
+      "is_i_frame": false,
+      "bit_bytes": 138,
+      "encode_seconds": 0.1219659373164177
+    },
+    {
+      "frame": 23,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.14563239365816116
+    },
+    {
+      "frame": 24,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.12811663374304771
+    },
+    {
+      "frame": 25,
+      "is_i_frame": false,
+      "bit_bytes": 123,
+      "encode_seconds": 0.1321648620069027
+    },
+    {
+      "frame": 26,
+      "is_i_frame": false,
+      "bit_bytes": 143,
+      "encode_seconds": 0.11488010734319687
+    },
+    {
+      "frame": 27,
+      "is_i_frame": false,
+      "bit_bytes": 115,
+      "encode_seconds": 0.14271344617009163
+    },
+    {
+      "frame": 28,
+      "is_i_frame": false,
+      "bit_bytes": 124,
+      "encode_seconds": 0.12974346429109573
+    },
+    {
+      "frame": 29,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.1224348358809948
+    },
+    {
+      "frame": 30,
+      "is_i_frame": false,
+      "bit_bytes": 135,
+      "encode_seconds": 0.13362856954336166
+    },
+    {
+      "frame": 31,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.13004083931446075
+    },
+    {
+      "frame": 32,
+      "is_i_frame": true,
+      "bit_bytes": 618,
+      "encode_seconds": 0.252080462872982
+    },
+    {
+      "frame": 33,
+      "is_i_frame": false,
+      "bit_bytes": 564,
+      "encode_seconds": 0.1295512579381466
+    },
+    {
+      "frame": 34,
+      "is_i_frame": false,
+      "bit_bytes": 408,
+      "encode_seconds": 0.108640655875206
+    },
+    {
+      "frame": 35,
+      "is_i_frame": false,
+      "bit_bytes": 230,
+      "encode_seconds": 0.12905678898096085
+    },
+    {
+      "frame": 36,
+      "is_i_frame": false,
+      "bit_bytes": 179,
+      "encode_seconds": 0.1110125295817852
+    },
+    {
+      "frame": 37,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.14238783717155457
+    },
+    {
+      "frame": 38,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.1346396543085575
+    },
+    {
+      "frame": 39,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.11636234074831009
+    },
+    {
+      "frame": 40,
+      "is_i_frame": false,
+      "bit_bytes": 133,
+      "encode_seconds": 0.11169398576021194
+    },
+    {
+      "frame": 41,
+      "is_i_frame": false,
+      "bit_bytes": 107,
+      "encode_seconds": 0.12180021777749062
+    },
+    {
+      "frame": 42,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.13811098784208298
+    },
+    {
+      "frame": 43,
+      "is_i_frame": false,
+      "bit_bytes": 124,
+      "encode_seconds": 0.10657857730984688
+    },
+    {
+      "frame": 44,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.12054871022701263
+    },
+    {
+      "frame": 45,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.14466483518481255
+    },
+    {
+      "frame": 46,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.11657538637518883
+    },
+    {
+      "frame": 47,
+      "is_i_frame": false,
+      "bit_bytes": 111,
+      "encode_seconds": 0.14215288683772087
+    },
+    {
+      "frame": 48,
+      "is_i_frame": false,
+      "bit_bytes": 114,
+      "encode_seconds": 0.14011601731181145
+    },
+    {
+      "frame": 49,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.1153678186237812
+    },
+    {
+      "frame": 50,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.1440291367471218
+    },
+    {
+      "frame": 51,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.1265760138630867
+    },
+    {
+      "frame": 52,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.1456158123910427
+    },
+    {
+      "frame": 53,
+      "is_i_frame": false,
+      "bit_bytes": 123,
+      "encode_seconds": 0.11315035074949265
+    },
+    {
+      "frame": 54,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.13587456196546555
+    },
+    {
+      "frame": 55,
+      "is_i_frame": false,
+      "bit_bytes": 115,
+      "encode_seconds": 0.15010316669940948
+    },
+    {
+      "frame": 56,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.11193900927901268
+    },
+    {
+      "frame": 57,
+      "is_i_frame": false,
+      "bit_bytes": 122,
+      "encode_seconds": 0.12271454557776451
+    },
+    {
+      "frame": 58,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.10595967248082161
+    },
+    {
+      "frame": 59,
+      "is_i_frame": false,
+      "bit_bytes": 136,
+      "encode_seconds": 0.12595652416348457
+    },
+    {
+      "frame": 60,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.11111460253596306
+    },
+    {
+      "frame": 61,
+      "is_i_frame": false,
+      "bit_bytes": 122,
+      "encode_seconds": 0.14685219526290894
+    },
+    {
+      "frame": 62,
+      "is_i_frame": false,
+      "bit_bytes": 136,
+      "encode_seconds": 0.13148697093129158
+    },
+    {
+      "frame": 63,
+      "is_i_frame": false,
+      "bit_bytes": 140,
+      "encode_seconds": 0.1270619072020054
+    },
+    {
+      "frame": 64,
+      "is_i_frame": true,
+      "bit_bytes": 622,
+      "encode_seconds": 0.22457564994692802
+    },
+    {
+      "frame": 65,
+      "is_i_frame": false,
+      "bit_bytes": 557,
+      "encode_seconds": 0.12055127695202827
+    },
+    {
+      "frame": 66,
+      "is_i_frame": false,
+      "bit_bytes": 451,
+      "encode_seconds": 0.12397655844688416
+    },
+    {
+      "frame": 67,
+      "is_i_frame": false,
+      "bit_bytes": 220,
+      "encode_seconds": 0.12280899658799171
+    },
+    {
+      "frame": 68,
+      "is_i_frame": false,
+      "bit_bytes": 160,
+      "encode_seconds": 0.13765865191817284
+    },
+    {
+      "frame": 69,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.12176421657204628
+    },
+    {
+      "frame": 70,
+      "is_i_frame": false,
+      "bit_bytes": 97,
+      "encode_seconds": 0.12268652766942978
+    },
+    {
+      "frame": 71,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.13383326306939125
+    },
+    {
+      "frame": 72,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.13071932271122932
+    },
+    {
+      "frame": 73,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.13347415998578072
+    },
+    {
+      "frame": 74,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.15220506489276886
+    },
+    {
+      "frame": 75,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.11475016549229622
+    },
+    {
+      "frame": 76,
+      "is_i_frame": false,
+      "bit_bytes": 128,
+      "encode_seconds": 0.13070371747016907
+    },
+    {
+      "frame": 77,
+      "is_i_frame": false,
+      "bit_bytes": 141,
+      "encode_seconds": 0.127587478607893
+    },
+    {
+      "frame": 78,
+      "is_i_frame": false,
+      "bit_bytes": 143,
+      "encode_seconds": 0.12671473994851112
+    },
+    {
+      "frame": 79,
+      "is_i_frame": false,
+      "bit_bytes": 160,
+      "encode_seconds": 0.13140521198511124
+    },
+    {
+      "frame": 80,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.11424390599131584
+    },
+    {
+      "frame": 81,
+      "is_i_frame": false,
+      "bit_bytes": 122,
+      "encode_seconds": 0.13127432018518448
+    },
+    {
+      "frame": 82,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.11419979110360146
+    },
+    {
+      "frame": 83,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.12237649038434029
+    },
+    {
+      "frame": 84,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.13556993007659912
+    },
+    {
+      "frame": 85,
+      "is_i_frame": false,
+      "bit_bytes": 133,
+      "encode_seconds": 0.13804494217038155
+    },
+    {
+      "frame": 86,
+      "is_i_frame": false,
+      "bit_bytes": 140,
+      "encode_seconds": 0.12393863871693611
+    },
+    {
+      "frame": 87,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.13212979957461357
+    },
+    {
+      "frame": 88,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.13249043747782707
+    },
+    {
+      "frame": 89,
+      "is_i_frame": false,
+      "bit_bytes": 103,
+      "encode_seconds": 0.14079231768846512
+    },
+    {
+      "frame": 90,
+      "is_i_frame": false,
+      "bit_bytes": 129,
+      "encode_seconds": 0.12261874601244926
+    },
+    {
+      "frame": 91,
+      "is_i_frame": false,
+      "bit_bytes": 111,
+      "encode_seconds": 0.14830740168690681
+    },
+    {
+      "frame": 92,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.13829805701971054
+    },
+    {
+      "frame": 93,
+      "is_i_frame": false,
+      "bit_bytes": 113,
+      "encode_seconds": 0.11674480885267258
+    },
+    {
+      "frame": 94,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.13522641733288765
+    },
+    {
+      "frame": 95,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.12583746761083603
+    },
+    {
+      "frame": 96,
+      "is_i_frame": true,
+      "bit_bytes": 629,
+      "encode_seconds": 0.30421797931194305
+    },
+    {
+      "frame": 97,
+      "is_i_frame": false,
+      "bit_bytes": 542,
+      "encode_seconds": 0.10902094095945358
+    },
+    {
+      "frame": 98,
+      "is_i_frame": false,
+      "bit_bytes": 456,
+      "encode_seconds": 0.13388648629188538
+    },
+    {
+      "frame": 99,
+      "is_i_frame": false,
+      "bit_bytes": 224,
+      "encode_seconds": 0.117806825786829
+    },
+    {
+      "frame": 100,
+      "is_i_frame": false,
+      "bit_bytes": 163,
+      "encode_seconds": 0.12183398753404617
+    },
+    {
+      "frame": 101,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.1288030408322811
+    },
+    {
+      "frame": 102,
+      "is_i_frame": false,
+      "bit_bytes": 104,
+      "encode_seconds": 0.10396737605333328
+    },
+    {
+      "frame": 103,
+      "is_i_frame": false,
+      "bit_bytes": 107,
+      "encode_seconds": 0.13694555312395096
+    },
+    {
+      "frame": 104,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.11461678892374039
+    },
+    {
+      "frame": 105,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.10390770062804222
+    },
+    {
+      "frame": 106,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.10935234650969505
+    },
+    {
+      "frame": 107,
+      "is_i_frame": false,
+      "bit_bytes": 108,
+      "encode_seconds": 0.12600016593933105
+    },
+    {
+      "frame": 108,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.11220439523458481
+    },
+    {
+      "frame": 109,
+      "is_i_frame": false,
+      "bit_bytes": 122,
+      "encode_seconds": 0.13048430532217026
+    },
+    {
+      "frame": 110,
+      "is_i_frame": false,
+      "bit_bytes": 113,
+      "encode_seconds": 0.10386089980602264
+    },
+    {
+      "frame": 111,
+      "is_i_frame": false,
+      "bit_bytes": 123,
+      "encode_seconds": 0.14208044856786728
+    },
+    {
+      "frame": 112,
+      "is_i_frame": false,
+      "bit_bytes": 117,
+      "encode_seconds": 0.10571309551596642
+    },
+    {
+      "frame": 113,
+      "is_i_frame": false,
+      "bit_bytes": 144,
+      "encode_seconds": 0.14042987301945686
+    },
+    {
+      "frame": 114,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.12837062776088715
+    },
+    {
+      "frame": 115,
+      "is_i_frame": false,
+      "bit_bytes": 124,
+      "encode_seconds": 0.1136629655957222
+    },
+    {
+      "frame": 116,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.13573244959115982
+    },
+    {
+      "frame": 117,
+      "is_i_frame": false,
+      "bit_bytes": 115,
+      "encode_seconds": 0.1445547267794609
+    },
+    {
+      "frame": 118,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.13293806463479996
+    },
+    {
+      "frame": 119,
+      "is_i_frame": false,
+      "bit_bytes": 129,
+      "encode_seconds": 0.118875902146101
+    },
+    {
+      "frame": 120,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.1492926962673664
+    },
+    {
+      "frame": 121,
+      "is_i_frame": false,
+      "bit_bytes": 113,
+      "encode_seconds": 0.14028673246502876
+    },
+    {
+      "frame": 122,
+      "is_i_frame": false,
+      "bit_bytes": 136,
+      "encode_seconds": 0.11721083149313927
+    },
+    {
+      "frame": 123,
+      "is_i_frame": false,
+      "bit_bytes": 117,
+      "encode_seconds": 0.13044723495841026
+    },
+    {
+      "frame": 124,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.11458292603492737
+    },
+    {
+      "frame": 125,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.13530147820711136
+    },
+    {
+      "frame": 126,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.13726872205734253
+    },
+    {
+      "frame": 127,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.119381383061409
+    },
+    {
+      "frame": 128,
+      "is_i_frame": true,
+      "bit_bytes": 620,
+      "encode_seconds": 0.33579982817173004
+    },
+    {
+      "frame": 129,
+      "is_i_frame": false,
+      "bit_bytes": 544,
+      "encode_seconds": 0.14019940048456192
+    },
+    {
+      "frame": 130,
+      "is_i_frame": false,
+      "bit_bytes": 437,
+      "encode_seconds": 0.13645165413618088
+    },
+    {
+      "frame": 131,
+      "is_i_frame": false,
+      "bit_bytes": 230,
+      "encode_seconds": 0.12639818340539932
+    },
+    {
+      "frame": 132,
+      "is_i_frame": false,
+      "bit_bytes": 152,
+      "encode_seconds": 0.11505039408802986
+    },
+    {
+      "frame": 133,
+      "is_i_frame": false,
+      "bit_bytes": 138,
+      "encode_seconds": 0.13818974792957306
+    },
+    {
+      "frame": 134,
+      "is_i_frame": false,
+      "bit_bytes": 104,
+      "encode_seconds": 0.14001311734318733
+    },
+    {
+      "frame": 135,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.11574913933873177
+    },
+    {
+      "frame": 136,
+      "is_i_frame": false,
+      "bit_bytes": 104,
+      "encode_seconds": 0.14313478395342827
+    },
+    {
+      "frame": 137,
+      "is_i_frame": false,
+      "bit_bytes": 117,
+      "encode_seconds": 0.13859693706035614
+    },
+    {
+      "frame": 138,
+      "is_i_frame": false,
+      "bit_bytes": 124,
+      "encode_seconds": 0.12129942327737808
+    },
+    {
+      "frame": 139,
+      "is_i_frame": false,
+      "bit_bytes": 133,
+      "encode_seconds": 0.1349433735013008
+    },
+    {
+      "frame": 140,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.14663366600871086
+    },
+    {
+      "frame": 141,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.11578372865915298
+    },
+    {
+      "frame": 142,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.12991147488355637
+    },
+    {
+      "frame": 143,
+      "is_i_frame": false,
+      "bit_bytes": 141,
+      "encode_seconds": 0.11509562283754349
+    },
+    {
+      "frame": 144,
+      "is_i_frame": false,
+      "bit_bytes": 114,
+      "encode_seconds": 0.13843854144215584
+    },
+    {
+      "frame": 145,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.14122214913368225
+    },
+    {
+      "frame": 146,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.1196490228176117
+    },
+    {
+      "frame": 147,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.12766804918646812
+    },
+    {
+      "frame": 148,
+      "is_i_frame": false,
+      "bit_bytes": 108,
+      "encode_seconds": 0.11210523545742035
+    },
+    {
+      "frame": 149,
+      "is_i_frame": false,
+      "bit_bytes": 136,
+      "encode_seconds": 0.1429317742586136
+    },
+    {
+      "frame": 150,
+      "is_i_frame": false,
+      "bit_bytes": 122,
+      "encode_seconds": 0.13574235141277313
+    },
+    {
+      "frame": 151,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.10286513343453407
+    },
+    {
+      "frame": 152,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.13587603345513344
+    },
+    {
+      "frame": 153,
+      "is_i_frame": false,
+      "bit_bytes": 141,
+      "encode_seconds": 0.12368199974298477
+    },
+    {
+      "frame": 154,
+      "is_i_frame": false,
+      "bit_bytes": 138,
+      "encode_seconds": 0.14183031767606735
+    },
+    {
+      "frame": 155,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.14451462402939796
+    },
+    {
+      "frame": 156,
+      "is_i_frame": false,
+      "bit_bytes": 141,
+      "encode_seconds": 0.12153957411646843
+    },
+    {
+      "frame": 157,
+      "is_i_frame": false,
+      "bit_bytes": 140,
+      "encode_seconds": 0.14934378862380981
+    },
+    {
+      "frame": 158,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.13445539772510529
+    },
+    {
+      "frame": 159,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.11568756401538849
+    },
+    {
+      "frame": 160,
+      "is_i_frame": true,
+      "bit_bytes": 607,
+      "encode_seconds": 0.28349263221025467
+    },
+    {
+      "frame": 161,
+      "is_i_frame": false,
+      "bit_bytes": 574,
+      "encode_seconds": 0.14265679195523262
+    },
+    {
+      "frame": 162,
+      "is_i_frame": false,
+      "bit_bytes": 425,
+      "encode_seconds": 0.1437767893075943
+    },
+    {
+      "frame": 163,
+      "is_i_frame": false,
+      "bit_bytes": 227,
+      "encode_seconds": 0.12165836244821548
+    },
+    {
+      "frame": 164,
+      "is_i_frame": false,
+      "bit_bytes": 162,
+      "encode_seconds": 0.1274128332734108
+    },
+    {
+      "frame": 165,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.11520560830831528
+    },
+    {
+      "frame": 166,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.13340730220079422
+    },
+    {
+      "frame": 167,
+      "is_i_frame": false,
+      "bit_bytes": 96,
+      "encode_seconds": 0.12865963578224182
+    },
+    {
+      "frame": 168,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.11467688158154488
+    },
+    {
+      "frame": 169,
+      "is_i_frame": false,
+      "bit_bytes": 99,
+      "encode_seconds": 0.12502335757017136
+    },
+    {
+      "frame": 170,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.1348390057682991
+    },
+    {
+      "frame": 171,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.11820388212800026
+    },
+    {
+      "frame": 172,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.11350218579173088
+    },
+    {
+      "frame": 173,
+      "is_i_frame": false,
+      "bit_bytes": 128,
+      "encode_seconds": 0.13336913287639618
+    },
+    {
+      "frame": 174,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.11808830127120018
+    },
+    {
+      "frame": 175,
+      "is_i_frame": false,
+      "bit_bytes": 101,
+      "encode_seconds": 0.12804944440722466
+    },
+    {
+      "frame": 176,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.1420581117272377
+    },
+    {
+      "frame": 177,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.13506871461868286
+    },
+    {
+      "frame": 178,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.11561297625303268
+    },
+    {
+      "frame": 179,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.1363770104944706
+    },
+    {
+      "frame": 180,
+      "is_i_frame": false,
+      "bit_bytes": 138,
+      "encode_seconds": 0.13974475115537643
+    },
+    {
+      "frame": 181,
+      "is_i_frame": false,
+      "bit_bytes": 132,
+      "encode_seconds": 0.14036300405859947
+    },
+    {
+      "frame": 182,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.11993851512670517
+    },
+    {
+      "frame": 183,
+      "is_i_frame": false,
+      "bit_bytes": 126,
+      "encode_seconds": 0.1240377128124237
+    },
+    {
+      "frame": 184,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.1632910706102848
+    },
+    {
+      "frame": 185,
+      "is_i_frame": false,
+      "bit_bytes": 104,
+      "encode_seconds": 0.11636995524168015
+    },
+    {
+      "frame": 186,
+      "is_i_frame": false,
+      "bit_bytes": 101,
+      "encode_seconds": 0.11754324659705162
+    },
+    {
+      "frame": 187,
+      "is_i_frame": false,
+      "bit_bytes": 123,
+      "encode_seconds": 0.12970971316099167
+    },
+    {
+      "frame": 188,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.11301497742533684
+    },
+    {
+      "frame": 189,
+      "is_i_frame": false,
+      "bit_bytes": 122,
+      "encode_seconds": 0.1310911849141121
+    },
+    {
+      "frame": 190,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.1519278809428215
+    },
+    {
+      "frame": 191,
+      "is_i_frame": false,
+      "bit_bytes": 142,
+      "encode_seconds": 0.11746737733483315
+    },
+    {
+      "frame": 192,
+      "is_i_frame": true,
+      "bit_bytes": 621,
+      "encode_seconds": 0.21574605628848076
+    },
+    {
+      "frame": 193,
+      "is_i_frame": false,
+      "bit_bytes": 562,
+      "encode_seconds": 0.11131417378783226
+    },
+    {
+      "frame": 194,
+      "is_i_frame": false,
+      "bit_bytes": 428,
+      "encode_seconds": 0.1311889849603176
+    },
+    {
+      "frame": 195,
+      "is_i_frame": false,
+      "bit_bytes": 219,
+      "encode_seconds": 0.12052284181118011
+    },
+    {
+      "frame": 196,
+      "is_i_frame": false,
+      "bit_bytes": 153,
+      "encode_seconds": 0.13977525755763054
+    },
+    {
+      "frame": 197,
+      "is_i_frame": false,
+      "bit_bytes": 108,
+      "encode_seconds": 0.1319584958255291
+    },
+    {
+      "frame": 198,
+      "is_i_frame": false,
+      "bit_bytes": 98,
+      "encode_seconds": 0.1146165318787098
+    },
+    {
+      "frame": 199,
+      "is_i_frame": false,
+      "bit_bytes": 99,
+      "encode_seconds": 0.1349332630634308
+    },
+    {
+      "frame": 200,
+      "is_i_frame": false,
+      "bit_bytes": 89,
+      "encode_seconds": 0.10967033728957176
+    },
+    {
+      "frame": 201,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.13854250311851501
+    },
+    {
+      "frame": 202,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.12322673574090004
+    },
+    {
+      "frame": 203,
+      "is_i_frame": false,
+      "bit_bytes": 115,
+      "encode_seconds": 0.12942248210310936
+    },
+    {
+      "frame": 204,
+      "is_i_frame": false,
+      "bit_bytes": 101,
+      "encode_seconds": 0.13910702615976334
+    },
+    {
+      "frame": 205,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.12561679258942604
+    },
+    {
+      "frame": 206,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.1273646466434002
+    },
+    {
+      "frame": 207,
+      "is_i_frame": false,
+      "bit_bytes": 123,
+      "encode_seconds": 0.1461418904364109
+    },
+    {
+      "frame": 208,
+      "is_i_frame": false,
+      "bit_bytes": 105,
+      "encode_seconds": 0.12982186675071716
+    },
+    {
+      "frame": 209,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.10916393250226974
+    },
+    {
+      "frame": 210,
+      "is_i_frame": false,
+      "bit_bytes": 129,
+      "encode_seconds": 0.12952016666531563
+    },
+    {
+      "frame": 211,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.13451270386576653
+    },
+    {
+      "frame": 212,
+      "is_i_frame": false,
+      "bit_bytes": 144,
+      "encode_seconds": 0.11545141041278839
+    },
+    {
+      "frame": 213,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.12819664180278778
+    },
+    {
+      "frame": 214,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.11164804175496101
+    },
+    {
+      "frame": 215,
+      "is_i_frame": false,
+      "bit_bytes": 148,
+      "encode_seconds": 0.11619514599442482
+    },
+    {
+      "frame": 216,
+      "is_i_frame": false,
+      "bit_bytes": 117,
+      "encode_seconds": 0.1302996762096882
+    },
+    {
+      "frame": 217,
+      "is_i_frame": false,
+      "bit_bytes": 142,
+      "encode_seconds": 0.14131221175193787
+    },
+    {
+      "frame": 218,
+      "is_i_frame": false,
+      "bit_bytes": 134,
+      "encode_seconds": 0.10457560792565346
+    },
+    {
+      "frame": 219,
+      "is_i_frame": false,
+      "bit_bytes": 134,
+      "encode_seconds": 0.1256731115281582
+    },
+    {
+      "frame": 220,
+      "is_i_frame": false,
+      "bit_bytes": 140,
+      "encode_seconds": 0.12737945094704628
+    },
+    {
+      "frame": 221,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.1038474440574646
+    },
+    {
+      "frame": 222,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.12578796222805977
+    },
+    {
+      "frame": 223,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.126581110060215
+    },
+    {
+      "frame": 224,
+      "is_i_frame": true,
+      "bit_bytes": 622,
+      "encode_seconds": 0.22626425325870514
+    },
+    {
+      "frame": 225,
+      "is_i_frame": false,
+      "bit_bytes": 539,
+      "encode_seconds": 0.12367178499698639
+    },
+    {
+      "frame": 226,
+      "is_i_frame": false,
+      "bit_bytes": 447,
+      "encode_seconds": 0.10893850401043892
+    },
+    {
+      "frame": 227,
+      "is_i_frame": false,
+      "bit_bytes": 218,
+      "encode_seconds": 0.10311879217624664
+    },
+    {
+      "frame": 228,
+      "is_i_frame": false,
+      "bit_bytes": 152,
+      "encode_seconds": 0.12522808834910393
+    },
+    {
+      "frame": 229,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.11036532744765282
+    },
+    {
+      "frame": 230,
+      "is_i_frame": false,
+      "bit_bytes": 99,
+      "encode_seconds": 0.13030574843287468
+    },
+    {
+      "frame": 231,
+      "is_i_frame": false,
+      "bit_bytes": 100,
+      "encode_seconds": 0.13129468634724617
+    },
+    {
+      "frame": 232,
+      "is_i_frame": false,
+      "bit_bytes": 111,
+      "encode_seconds": 0.12079199776053429
+    },
+    {
+      "frame": 233,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.13455936685204506
+    },
+    {
+      "frame": 234,
+      "is_i_frame": false,
+      "bit_bytes": 115,
+      "encode_seconds": 0.10569407790899277
+    },
+    {
+      "frame": 235,
+      "is_i_frame": false,
+      "bit_bytes": 121,
+      "encode_seconds": 0.12087970227003098
+    },
+    {
+      "frame": 236,
+      "is_i_frame": false,
+      "bit_bytes": 107,
+      "encode_seconds": 0.1266653947532177
+    },
+    {
+      "frame": 237,
+      "is_i_frame": false,
+      "bit_bytes": 111,
+      "encode_seconds": 0.10489899665117264
+    },
+    {
+      "frame": 238,
+      "is_i_frame": false,
+      "bit_bytes": 143,
+      "encode_seconds": 0.12395491451025009
+    },
+    {
+      "frame": 239,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.1036275364458561
+    },
+    {
+      "frame": 240,
+      "is_i_frame": false,
+      "bit_bytes": 113,
+      "encode_seconds": 0.12681148573756218
+    },
+    {
+      "frame": 241,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.11545965820550919
+    },
+    {
+      "frame": 242,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.12826036661863327
+    },
+    {
+      "frame": 243,
+      "is_i_frame": false,
+      "bit_bytes": 133,
+      "encode_seconds": 0.1094435602426529
+    },
+    {
+      "frame": 244,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.1259782388806343
+    },
+    {
+      "frame": 245,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.12192177399992943
+    },
+    {
+      "frame": 246,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.11297802999615669
+    },
+    {
+      "frame": 247,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.12521355226635933
+    },
+    {
+      "frame": 248,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.13389498367905617
+    },
+    {
+      "frame": 249,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.11786235123872757
+    },
+    {
+      "frame": 250,
+      "is_i_frame": false,
+      "bit_bytes": 140,
+      "encode_seconds": 0.12489379942417145
+    },
+    {
+      "frame": 251,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.11909369751811028
+    },
+    {
+      "frame": 252,
+      "is_i_frame": false,
+      "bit_bytes": 145,
+      "encode_seconds": 0.1412709839642048
+    },
+    {
+      "frame": 253,
+      "is_i_frame": false,
+      "bit_bytes": 138,
+      "encode_seconds": 0.1344366893172264
+    },
+    {
+      "frame": 254,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.12748925387859344
+    },
+    {
+      "frame": 255,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.14775151759386063
+    },
+    {
+      "frame": 256,
+      "is_i_frame": true,
+      "bit_bytes": 608,
+      "encode_seconds": 0.21459021791815758
+    },
+    {
+      "frame": 257,
+      "is_i_frame": false,
+      "bit_bytes": 559,
+      "encode_seconds": 0.1318860575556755
+    },
+    {
+      "frame": 258,
+      "is_i_frame": false,
+      "bit_bytes": 450,
+      "encode_seconds": 0.13570136204361916
+    },
+    {
+      "frame": 259,
+      "is_i_frame": false,
+      "bit_bytes": 215,
+      "encode_seconds": 0.12852760031819344
+    },
+    {
+      "frame": 260,
+      "is_i_frame": false,
+      "bit_bytes": 158,
+      "encode_seconds": 0.11584904044866562
+    },
+    {
+      "frame": 261,
+      "is_i_frame": false,
+      "bit_bytes": 128,
+      "encode_seconds": 0.13626929745078087
+    },
+    {
+      "frame": 262,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.1364910826086998
+    },
+    {
+      "frame": 263,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.11283847317099571
+    },
+    {
+      "frame": 264,
+      "is_i_frame": false,
+      "bit_bytes": 113,
+      "encode_seconds": 0.13666193932294846
+    },
+    {
+      "frame": 265,
+      "is_i_frame": false,
+      "bit_bytes": 103,
+      "encode_seconds": 0.12931715697050095
+    },
+    {
+      "frame": 266,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.10865683108568192
+    },
+    {
+      "frame": 267,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.12661344930529594
+    },
+    {
+      "frame": 268,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.11734461784362793
+    },
+    {
+      "frame": 269,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.12842659652233124
+    },
+    {
+      "frame": 270,
+      "is_i_frame": false,
+      "bit_bytes": 114,
+      "encode_seconds": 0.10832540690898895
+    },
+    {
+      "frame": 271,
+      "is_i_frame": false,
+      "bit_bytes": 111,
+      "encode_seconds": 0.12716423347592354
+    },
+    {
+      "frame": 272,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.11071377247571945
+    },
+    {
+      "frame": 273,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.12750309333205223
+    },
+    {
+      "frame": 274,
+      "is_i_frame": false,
+      "bit_bytes": 117,
+      "encode_seconds": 0.12839950621128082
+    },
+    {
+      "frame": 275,
+      "is_i_frame": false,
+      "bit_bytes": 118,
+      "encode_seconds": 0.11021614074707031
+    },
+    {
+      "frame": 276,
+      "is_i_frame": false,
+      "bit_bytes": 116,
+      "encode_seconds": 0.14293280616402626
+    },
+    {
+      "frame": 277,
+      "is_i_frame": false,
+      "bit_bytes": 128,
+      "encode_seconds": 0.12751314789056778
+    },
+    {
+      "frame": 278,
+      "is_i_frame": false,
+      "bit_bytes": 142,
+      "encode_seconds": 0.1371520273387432
+    },
+    {
+      "frame": 279,
+      "is_i_frame": false,
+      "bit_bytes": 125,
+      "encode_seconds": 0.11532917991280556
+    },
+    {
+      "frame": 280,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.13796159997582436
+    },
+    {
+      "frame": 281,
+      "is_i_frame": false,
+      "bit_bytes": 133,
+      "encode_seconds": 0.13217539712786674
+    },
+    {
+      "frame": 282,
+      "is_i_frame": false,
+      "bit_bytes": 139,
+      "encode_seconds": 0.11845030263066292
+    },
+    {
+      "frame": 283,
+      "is_i_frame": false,
+      "bit_bytes": 130,
+      "encode_seconds": 0.142115268856287
+    },
+    {
+      "frame": 284,
+      "is_i_frame": false,
+      "bit_bytes": 123,
+      "encode_seconds": 0.12152734398841858
+    },
+    {
+      "frame": 285,
+      "is_i_frame": false,
+      "bit_bytes": 127,
+      "encode_seconds": 0.12409351766109467
+    },
+    {
+      "frame": 286,
+      "is_i_frame": false,
+      "bit_bytes": 153,
+      "encode_seconds": 0.11408185213804245
+    },
+    {
+      "frame": 287,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.13388677686452866
+    },
+    {
+      "frame": 288,
+      "is_i_frame": true,
+      "bit_bytes": 620,
+      "encode_seconds": 0.22317443788051605
+    },
+    {
+      "frame": 289,
+      "is_i_frame": false,
+      "bit_bytes": 533,
+      "encode_seconds": 0.11635398864746094
+    },
+    {
+      "frame": 290,
+      "is_i_frame": false,
+      "bit_bytes": 449,
+      "encode_seconds": 0.12922976911067963
+    },
+    {
+      "frame": 291,
+      "is_i_frame": false,
+      "bit_bytes": 230,
+      "encode_seconds": 0.12839803099632263
+    },
+    {
+      "frame": 292,
+      "is_i_frame": false,
+      "bit_bytes": 163,
+      "encode_seconds": 0.12811214476823807
+    },
+    {
+      "frame": 293,
+      "is_i_frame": false,
+      "bit_bytes": 109,
+      "encode_seconds": 0.1174420416355133
+    },
+    {
+      "frame": 294,
+      "is_i_frame": false,
+      "bit_bytes": 119,
+      "encode_seconds": 0.15565316006541252
+    },
+    {
+      "frame": 295,
+      "is_i_frame": false,
+      "bit_bytes": 106,
+      "encode_seconds": 0.12187075614929199
+    },
+    {
+      "frame": 296,
+      "is_i_frame": false,
+      "bit_bytes": 110,
+      "encode_seconds": 0.13355755805969238
+    },
+    {
+      "frame": 297,
+      "is_i_frame": false,
+      "bit_bytes": 112,
+      "encode_seconds": 0.13649046793580055
+    },
+    {
+      "frame": 298,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.12680256739258766
+    },
+    {
+      "frame": 299,
+      "is_i_frame": false,
+      "bit_bytes": 120,
+      "encode_seconds": 0.1171066053211689
+    }
+  ]
+}
