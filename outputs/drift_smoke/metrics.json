@@ -9,8 +9,7 @@
     "latent_channels": 4,
     "context_channels": [
       8,
-      4
-      
+      4 
     ],
     "hidden_channels": 16,
     "depth": 1,
@@ -24,7 +23,8 @@
     "torch": "2.8.0+cu126",
     "cuda_available": true,
     "device": "cpu"
-  },
+  }, 
+  
   "metrics": {
     "steps": 100,
     "initial_loss_mean": 7.30001916885376,
